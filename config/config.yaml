@@ -1,0 +1,185 @@
+# UAMIS configuration. No secrets here - tokens come from environment variables.
+# All thresholds below are DEFAULTS, not validated truths. Re-tune them using your own accumulated data.
+
+db_path: state/uamis.sqlite
+model_dir: state/models
+
+horizons_minutes: [15, 60, 240, 1440]
+
+# Forex: the 28 pairs are NOT defined here. They are loaded verbatim from your existing scanner's list
+# (see config/forex_pairs.txt). The system refuses to run Forex analysis with a missing/incomplete list
+# rather than guessing pairs.
+forex:
+  pairs_file: config/forex_pairs.txt     # one pair per line, exactly as in your scanner (e.g. EURUSD)
+  expected_count: 28
+  yahoo_symbol_template: "{pair}=X"
+  cost_bps_default: 1.5
+
+# Non-Forex assets. `source` picks the price adapter. `base`/`quote` drive which currencies' events are relevant
+# and the sign of the *theoretical* effect (not a forecast). cost_bps = assumed round-trip spread/fee.
+assets:
+  XAUUSD: {source: yahoo,   symbol: "GC=F", class: metal,     base: XAU, quote: USD, cost_bps: 3,  note: "COMEX gold futures used as proxy for spot gold"}
+  XAGUSD: {source: yahoo,   symbol: "SI=F", class: metal,     base: XAG, quote: USD, cost_bps: 6,  note: "COMEX silver futures used as proxy for spot silver"}
+  DXY:    {source: yahoo,   symbol: "DX-Y.NYB", class: dollar_index, base: USD, quote: BASKET, cost_bps: 2}
+  NAS100: {source: yahoo,   symbol: "NQ=F", class: index,     base: IDX, quote: USD, cost_bps: 2,  note: "Nasdaq-100 futures (near 24h) proxy"}
+  US30:   {source: yahoo,   symbol: "YM=F", class: index,     base: IDX, quote: USD, cost_bps: 2,  note: "Dow futures proxy"}
+  SPX:    {source: yahoo,   symbol: "ES=F", class: index,     base: IDX, quote: USD, cost_bps: 2,  note: "S&P 500 futures proxy"}
+  BTCUSD: {source: binance, symbol: "BTCUSDT", class: crypto,  base: BTC, quote: USD, cost_bps: 10, note: "USDT pair used as USD proxy"}
+  ETHUSD: {source: binance, symbol: "ETHUSDT", class: crypto,  base: ETH, quote: USD, cost_bps: 10}
+
+  # Extra liquid crypto (Binance spot, USDT pairs as USD proxy). Remove any line you do not want analysed.
+  BNBUSD: {source: binance, symbol: "BNBUSDT",  class: crypto, base: BNB, quote: USD, cost_bps: 12}
+  SOLUSD: {source: binance, symbol: "SOLUSDT",  class: crypto, base: SOL, quote: USD, cost_bps: 15}
+  XRPUSD: {source: binance, symbol: "XRPUSDT",  class: crypto, base: XRP, quote: USD, cost_bps: 15}
+
+# Candle resolutions to store (seconds) and how far back each collection run asks for.
+candles:
+  resolutions: {300: "5m", 3600: "1h", 86400: "1d"}
+  yahoo_range: {300: "5d", 3600: "30d", 86400: "2y"}      # incremental runs; yahoo caps: 5m~60d, 1h~730d
+  yahoo_backfill_range: {300: "60d", 3600: "730d", 86400: "10y"}
+  retain_days: {300: 400, 3600: 1500, 86400: 4000}
+  max_staleness_seconds: {300: 1800, 3600: 7200}          # data older than this => stale => STAY AWAY
+
+calendar:
+  feed_urls:                                              # unofficial community feed; see docs/DATA_SOURCES.md
+    - https://nfs.faireconomy.media/ff_calendar_thisweek.json
+  min_importance: 2                                       # 1=low 2=medium 3=high
+  alert_min_importance: 3
+  heads_up_lead_minutes: 1440                             # informational "upcoming" alert
+  pre_lead_minutes: 90                             # pre-event analysis window (features at t0 - lead). 90 so an HOURLY run always lands inside it
+  post_delay_minutes: 15                                  # training anchor for post-event stage
+  post_max_lag_minutes: 90                                # live post analysis only if actual seen within this window
+
+news:
+  feeds:                                                  # official primary sources only by default
+    - {name: "Federal Reserve press releases", url: "https://www.federalreserve.gov/feeds/press_all.xml", official: true}
+    - {name: "BLS latest numbers",              url: "https://www.bls.gov/feed/bls_latest.rss",            official: true}
+    - {name: "ECB press",                       url: "https://www.ecb.europa.eu/rss/press.html",          official: true}
+  max_age_hours: 12
+  alert_categories: [FED_RATE, FED_MINUTES, FED_SPEECH, CPI, PCE, NFP, GEOPOLITICS]
+
+labels:
+  sideways_k: 0.5            # sideways band = k * expected move over the horizon (from pre-event 24h hourly vol)
+  vol_lookback_hours: 24
+  min_vol_returns: 12
+
+study:
+  min_samples: 20            # below this => INSUFFICIENT HISTORICAL DATA
+  neighbors: 40
+  confidence_z: 1.96
+
+ml:
+  min_train_samples: 150
+  min_test_samples: 40
+  test_fraction: 0.2
+  n_folds: 4
+  min_brier_improvement: 0.01   # must beat prior-baseline Brier by this much on the held-out test set
+  max_ece: 0.15                 # one-vs-rest expected calibration error ceiling on test set
+  random_state: 7
+
+risk:
+  vol_pct_high: 0.90             # current hourly vol percentile above this => HIGH vol risk
+  min_top_probability: 0.45      # below => low confidence
+  disagreement_min_prob: 0.40    # both ML and study have argmax prob above this but different => conflict
+  imminent_event_minutes: 90     # another important event within this window => elevated risk
+  deterioration_min_n: 30        # evaluated predictions needed before deterioration check applies
+  deterioration_margin: 0.0      # live Brier must not exceed baseline Brier by more than this
+
+alerts:
+  cooldown_minutes: 180          # same event+stage will not repeat inside this window unless content changed materially
+  max_message_chars: 3500
+
+http:
+  timeout_seconds: 20
+  retries: 3
+  backoff_seconds: 2.0
+  min_interval_seconds: 0.5      # polite rate limit per host
+  user_agent: "UAMIS/0.1 (personal research project)"
+
+evaluation:
+  grace_seconds: 600             # wait this long after horizon end before scoring
+  high_vol_pct: 0.80
+
+llm:                              # OPTIONAL, disabled by default. System works without it.
+  enabled: false
+  endpoint: ""                    # OpenAI-compatible /chat/completions URL (env LLM_API_KEY for key)
+  model: ""
+
+
+# ---------------------------------------------------------------------------------------------------------------------
+# Fundamental Market Direction Recommendation Engine (directional FILTER for your own PO3 signals; never trades)
+# Every threshold/weight is an explainable DEFAULT, not a validated truth. Live outcomes are tracked and the engine
+# labels itself UNVALIDATED until enough evaluated recommendations support it (see validation: below).
+# ---------------------------------------------------------------------------------------------------------------------
+recommend:
+  enabled: true
+  legacy_event_reports: false     # true = ALSO send the older per-event PRE-NEWS/POST-NEWS probability messages (ledger logging is unchanged)
+  display_timezone: "UTC"         # IANA name, e.g. "Asia/Karachi". Reports always show UTC; local time is added when this is not UTC
+  pre_checks_minutes: [90, 60, 15]      # minutes BEFORE a high-impact release at which a PRE-NEWS BIAS report is due
+  post_checks_minutes: [15, 60]         # minutes AFTER release at which a POST-NEWS report is due
+  post_window_minutes: 240              # post-news stages expire this long after release
+  blackout_pre_minutes: 15              # within this window before a release, affected instruments => STAY AWAY for short horizons
+  blackout_post_minutes: 10             # spike window right after a release
+  short_horizons_minutes: [15, 60]      # horizons treated as "short" for blackout / two-sided-risk rules
+  pre_news_two_sided_wait: true         # affected instruments + short horizons => WAIT before a high-impact release (outcome genuinely two-sided)
+  min_event_importance: 2               # events scored in the macro-surprise component (1 low, 2 medium, 3 high)
+  alert_min_importance: 3               # events that trigger scheduled PRE/POST reports
+  lookback_hours: 96                    # released-event memory
+  halflife_hours: 24                    # surprise influence halves every N hours
+  min_surprise_history: 8               # past surprises needed to z-score a surprise; otherwise sign-only at half strength
+  category_weights: {FED_RATE: 1.0, CPI: 0.8, NFP: 0.8, PCE: 0.6, WAGES: 0.5, GDP: 0.5, RETAIL: 0.5, PPI: 0.4, UNEMPLOYMENT: 0.5,
+                     CLAIMS: 0.3, PMI: 0.4, ADP: 0.3, JOLTS: 0.3, SENTIMENT: 0.3, OTHER_DATA: 0.25}
+  thresholds:
+    direction_score: 25            # |score| >= this (on -100..+100) to express a preference
+    strong_score: 50
+    fundamental_min: 10            # non-price evidence must reach this and agree in sign (price alone never creates a preference)
+    min_coverage: 0.35             # share of applicable evidence weight that actually has data; below this => WAIT
+    full_coverage: 0.70            # below this coverage the score is shrunk proportionally toward 0 (thin evidence != strong signal)
+    max_conflict: 0.30             # opposing share of evidence mass above this => WAIT (with a 25-pt score band the share can never exceed 37.5%, so 0.30 is an active gate)
+    pre_news_score_multiplier: 1.5 # stricter score needed for a bias while a release is pending
+  # nominal evidence weights per horizon (minutes). Missing-but-applicable evidence shrinks the score toward 0.
+  weights:
+    forex:
+      15:   {macro: 0.15, tone: 0.05, rates: 0.05, risk: 0.10, model: 0.20, reaction: 0.10, price: 0.25, strength: 0.10}
+      60:   {macro: 0.22, tone: 0.06, rates: 0.06, risk: 0.10, model: 0.22, reaction: 0.12, price: 0.15, strength: 0.07}
+      240:  {macro: 0.28, tone: 0.08, rates: 0.08, risk: 0.10, model: 0.18, reaction: 0.10, price: 0.12, strength: 0.06}
+      1440: {macro: 0.32, tone: 0.10, rates: 0.10, risk: 0.08, model: 0.15, reaction: 0.10, price: 0.10, strength: 0.05}
+    crypto:
+      15:   {macro: 0.15, rates: 0.05, risk: 0.10, cryptomkt: 0.10, model: 0.20, reaction: 0.10, price: 0.30}
+      60:   {macro: 0.20, rates: 0.05, risk: 0.10, cryptomkt: 0.15, model: 0.20, reaction: 0.10, price: 0.20}
+      240:  {macro: 0.22, rates: 0.08, risk: 0.10, cryptomkt: 0.18, model: 0.18, reaction: 0.10, price: 0.14}
+      1440: {macro: 0.25, rates: 0.10, risk: 0.08, cryptomkt: 0.20, model: 0.15, reaction: 0.10, price: 0.12}
+    other:                         # gold, silver, indices, DXY
+      15:   {macro: 0.15, rates: 0.05, risk: 0.10, model: 0.20, reaction: 0.10, price: 0.40}
+      60:   {macro: 0.25, rates: 0.10, risk: 0.10, model: 0.22, reaction: 0.12, price: 0.21}
+      240:  {macro: 0.30, rates: 0.12, risk: 0.10, model: 0.18, reaction: 0.10, price: 0.20}
+      1440: {macro: 0.35, rates: 0.15, risk: 0.08, model: 0.15, reaction: 0.10, price: 0.17}
+  risk_beta:                       # textbook risk-on(+)/risk-off(-) sensitivity per currency/asset; coarse and overridable
+    AUD: 1.0
+    NZD: 1.0
+    CAD: 0.5
+    GBP: 0.3
+    EUR: 0.2
+    CHF: -0.7
+    JPY: -1.0
+    BTC: 1.0
+    ETH: 1.0
+    BNB: 0.8
+    SOL: 1.2
+    XRP: 0.8
+    IDX: 1.0
+    XAU: -0.3
+  yields:
+    staleness_days: 5              # FRED yields are DAILY and delayed; older than this => component unavailable
+    change_scale_pp: 0.15          # tanh scale for the 5-observation change in percentage points
+  crypto:
+    coingecko: true                # free public /global endpoint (dominance, total market cap change); optional
+    coingecko_url: "https://api.coingecko.com/api/v3/global"
+    dominance_scale_pp: 0.5
+  validation:                      # live validation of the recommendations themselves
+    min_evaluated: 100             # evaluated LONG/SHORT preferences per horizon before the engine may call itself VALIDATED
+    min_lower_ci: 0.5              # Wilson lower bound of hit-rate among decisive (UP/DOWN) outcomes must exceed this
+  scan:
+    enabled: true                  # periodic report ONLY when a meaningful directional change occurred
+    min_interval_minutes: 60
+  export_json: true                # writes state/reports/recommendations_latest.json (read-only hand-off for your PO3 tooling)
