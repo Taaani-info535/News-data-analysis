@@ -1,0 +1,286 @@
+{
+  "overall": {
+    "n": 815,
+    "n_events": 22,
+    "coverage_directional": 0.0
+  },
+  "pending": 49,
+  "note": "Forecasts for different assets/horizons around the same event are correlated; effective independent sample is closer to n_events.",
+  "by_asset": {
+    "AUDCAD": {
+      "n": 28,
+      "n_events": 7,
+      "coverage_directional": 0.0
+    },
+    "AUDCHF": {
+      "n": 12,
+      "n_events": 3,
+      "coverage_directional": 0.0
+    },
+    "AUDJPY": {
+      "n": 21,
+      "n_events": 6,
+      "coverage_directional": 0.0
+    },
+    "AUDNZD": {
+      "n": 24,
+      "n_events": 6,
+      "coverage_directional": 0.0
+    },
+    "AUDUSD": {
+      "n": 32,
+      "n_events": 8,
+      "coverage_directional": 0.0
+    },
+    "BNBUSD": {
+      "n": 20,
+      "n_events": 5,
+      "coverage_directional": 0.0
+    },
+    "BTCUSD": {
+      "n": 20,
+      "n_events": 5,
+      "coverage_directional": 0.0
+    },
+    "CADCHF": {
+      "n": 16,
+      "n_events": 4,
+      "coverage_directional": 0.0
+    },
+    "CADJPY": {
+      "n": 25,
+      "n_events": 7,
+      "coverage_directional": 0.0
+    },
+    "CHFJPY": {
+      "n": 9,
+      "n_events": 3,
+      "coverage_directional": 0.0
+    },
+    "DXY": {
+      "n": 20,
+      "n_events": 5,
+      "coverage_directional": 0.0
+    },
+    "ETHUSD": {
+      "n": 20,
+      "n_events": 5,
+      "coverage_directional": 0.0
+    },
+    "EURAUD": {
+      "n": 24,
+      "n_events": 6,
+      "coverage_directional": 0.0
+    },
+    "EURCAD": {
+      "n": 28,
+      "n_events": 7,
+      "coverage_directional": 0.0
+    },
+    "EURCHF": {
+      "n": 12,
+      "n_events": 3,
+      "coverage_directional": 0.0
+    },
+    "EURGBP": {
+      "n": 16,
+      "n_events": 4,
+      "coverage_directional": 0.0
+    },
+    "EURJPY": {
+      "n": 21,
+      "n_events": 6,
+      "coverage_directional": 0.0
+    },
+    "EURNZD": {
+      "n": 24,
+      "n_events": 6,
+      "coverage_directional": 0.0
+    },
+    "EURUSD": {
+      "n": 32,
+      "n_events": 8,
+      "coverage_directional": 0.0
+    },
+    "GBPAUD": {
+      "n": 16,
+      "n_events": 4,
+      "coverage_directional": 0.0
+    },
+    "GBPCAD": {
+      "n": 20,
+      "n_events": 5,
+      "coverage_directional": 0.0
+    },
+    "GBPCHF": {
+      "n": 4,
+      "n_events": 1,
+      "coverage_directional": 0.0
+    },
+    "GBPJPY": {
+      "n": 13,
+      "n_events": 4,
+      "coverage_directional": 0.0
+    },
+    "GBPNZD": {
+      "n": 16,
+      "n_events": 4,
+      "coverage_directional": 0.0
+    },
+    "GBPUSD": {
+      "n": 24,
+      "n_events": 6,
+      "coverage_directional": 0.0
+    },
+    "NAS100": {
+      "n": 20,
+      "n_events": 5,
+      "coverage_directional": 0.0
+    },
+    "NZDCAD": {
+      "n": 28,
+      "n_events": 7,
+      "coverage_directional": 0.0
+    },
+    "NZDCHF": {
+      "n": 12,
+      "n_events": 3,
+      "coverage_directional": 0.0
+    },
+    "NZDJPY": {
+      "n": 21,
+      "n_events": 6,
+      "coverage_directional": 0.0
+    },
+    "NZDUSD": {
+      "n": 32,
+      "n_events": 8,
+      "coverage_directional": 0.0
+    },
+    "SOLUSD": {
+      "n": 20,
+      "n_events": 5,
+      "coverage_directional": 0.0
+    },
+    "SPX": {
+      "n": 20,
+      "n_events": 5,
+      "coverage_directional": 0.0
+    },
+    "US30": {
+      "n": 20,
+      "n_events": 5,
+      "coverage_directional": 0.0
+    },
+    "USDCAD": {
+      "n": 36,
+      "n_events": 9,
+      "coverage_directional": 0.0
+    },
+    "USDCHF": {
+      "n": 20,
+      "n_events": 5,
+      "coverage_directional": 0.0
+    },
+    "USDJPY": {
+      "n": 29,
+      "n_events": 8,
+      "coverage_directional": 0.0
+    },
+    "XAGUSD": {
+      "n": 20,
+      "n_events": 5,
+      "coverage_directional": 0.0
+    },
+    "XAUUSD": {
+      "n": 20,
+      "n_events": 5,
+      "coverage_directional": 0.0
+    },
+    "XRPUSD": {
+      "n": 20,
+      "n_events": 5,
+      "coverage_directional": 0.0
+    }
+  },
+  "by_category": {
+    "CPI": {
+      "n": 84,
+      "n_events": 3,
+      "coverage_directional": 0.0
+    },
+    "FED_RATE": {
+      "n": 382,
+      "n_events": 11,
+      "coverage_directional": 0.0
+    },
+    "FED_SPEECH": {
+      "n": 149,
+      "n_events": 4,
+      "coverage_directional": 0.0
+    },
+    "GDP": {
+      "n": 72,
+      "n_events": 1,
+      "coverage_directional": 0.0
+    },
+    "OTHER": {
+      "n": 56,
+      "n_events": 2,
+      "coverage_directional": 0.0
+    },
+    "PCE": {
+      "n": 72,
+      "n_events": 1,
+      "coverage_directional": 0.0
+    }
+  },
+  "by_horizon_s": {
+    "14400": {
+      "n": 209,
+      "n_events": 22,
+      "coverage_directional": 0.0
+    },
+    "3600": {
+      "n": 209,
+      "n_events": 22,
+      "coverage_directional": 0.0
+    },
+    "86400": {
+      "n": 188,
+      "n_events": 19,
+      "coverage_directional": 0.0
+    },
+    "900": {
+      "n": 209,
+      "n_events": 22,
+      "coverage_directional": 0.0
+    }
+  },
+  "by_status_label": {
+    "INSUFFICIENT DATA": {
+      "n": 815,
+      "n_events": 22,
+      "coverage_directional": 0.0
+    }
+  },
+  "by_stage": {
+    "pre": {
+      "n": 815,
+      "n_events": 22,
+      "coverage_directional": 0.0
+    }
+  },
+  "by_volatility": {
+    "high_vol": {
+      "n": 84,
+      "n_events": 13,
+      "coverage_directional": 0.0
+    },
+    "normal_vol": {
+      "n": 731,
+      "n_events": 22,
+      "coverage_directional": 0.0
+    }
+  }
+}
