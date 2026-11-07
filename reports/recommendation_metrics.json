@@ -1,0 +1,235 @@
+{
+  "overall": {
+    "n": 263,
+    "decisive": 181,
+    "sideways_share": 0.311787072243346,
+    "hits": 97,
+    "hit_rate_decisive": 0.5359116022099447,
+    "hit_ci95": [
+      0.463,
+      0.607
+    ],
+    "mean_gross_bps": 4.922931714330528,
+    "mean_net_bps": -6.480110110764531
+  },
+  "pending": 0,
+  "by_horizon": {
+    "4h": {
+      "n": 87,
+      "decisive": 52,
+      "sideways_share": 0.4022988505747126,
+      "hits": 23,
+      "hit_rate_decisive": 0.4423076923076923,
+      "hit_ci95": [
+        0.316,
+        0.577
+      ],
+      "mean_gross_bps": -9.465053808591907,
+      "mean_net_bps": -18.867352659166613
+    },
+    "1h": {
+      "n": 79,
+      "decisive": 60,
+      "sideways_share": 0.240506329113924,
+      "hits": 32,
+      "hit_rate_decisive": 0.5333333333333333,
+      "hit_ci95": [
+        0.409,
+        0.654
+      ],
+      "mean_gross_bps": 0.23428619000467316,
+      "mean_net_bps": -12.461916341640896
+    },
+    "24h": {
+      "n": 96,
+      "decisive": 69,
+      "sideways_share": 0.28125,
+      "hits": 42,
+      "hit_rate_decisive": 0.6086956521739131,
+      "hit_ci95": [
+        0.491,
+        0.715
+      ],
+      "mean_gross_bps": 21.85270496448201,
+      "mean_net_bps": 9.686038297815344
+    },
+    "15m": {
+      "n": 1,
+      "decisive": 0,
+      "sideways_share": 1.0,
+      "hits": 0,
+      "mean_gross_bps": 1.8224366157818497,
+      "mean_net_bps": -8.177563384218152
+    }
+  },
+  "by_instrument": {
+    "BNBUSD": {
+      "n": 48,
+      "decisive": 32,
+      "sideways_share": 0.33333333333333337,
+      "hits": 22,
+      "hit_rate_decisive": 0.6875,
+      "hit_ci95": [
+        0.514,
+        0.82
+      ],
+      "mean_gross_bps": 36.25248575847744,
+      "mean_net_bps": 24.252485758477444
+    },
+    "BTCUSD": {
+      "n": 53,
+      "decisive": 38,
+      "sideways_share": 0.28301886792452835,
+      "hits": 17,
+      "hit_rate_decisive": 0.4473684210526316,
+      "hit_ci95": [
+        0.301,
+        0.603
+      ],
+      "mean_gross_bps": -14.034853219245862,
+      "mean_net_bps": -24.034853219245864
+    },
+    "DXY": {
+      "n": 13,
+      "decisive": 9,
+      "sideways_share": 0.3076923076923077,
+      "hits": 5,
+      "hit_rate_decisive": 0.5555555555555556,
+      "hit_ci95": [
+        0.267,
+        0.811
+      ],
+      "mean_gross_bps": -1.1550001000408276,
+      "mean_net_bps": -3.155000100040828
+    },
+    "ETHUSD": {
+      "n": 31,
+      "decisive": 23,
+      "sideways_share": 0.25806451612903225,
+      "hits": 12,
+      "hit_rate_decisive": 0.5217391304347826,
+      "hit_ci95": [
+        0.33,
+        0.708
+      ],
+      "mean_gross_bps": -6.076889827313541,
+      "mean_net_bps": -16.076889827313543
+    },
+    "NAS100": {
+      "n": 9,
+      "decisive": 5,
+      "sideways_share": 0.4444444444444444,
+      "hits": 2,
+      "hit_rate_decisive": 0.4,
+      "hit_ci95": [
+        0.118,
+        0.769
+      ],
+      "mean_gross_bps": -9.497931078575256,
+      "mean_net_bps": -11.497931078575256
+    },
+    "SOLUSD": {
+      "n": 59,
+      "decisive": 42,
+      "sideways_share": 0.288135593220339,
+      "hits": 25,
+      "hit_rate_decisive": 0.5952380952380952,
+      "hit_ci95": [
+        0.445,
+        0.73
+      ],
+      "mean_gross_bps": 21.937082435687213,
+      "mean_net_bps": 6.937082435687209
+    },
+    "SPX": {
+      "n": 1,
+      "decisive": 0,
+      "sideways_share": 1.0,
+      "hits": 0,
+      "mean_gross_bps": 6.764701403135099,
+      "mean_net_bps": 4.764701403135099
+    },
+    "US30": {
+      "n": 2,
+      "decisive": 2,
+      "sideways_share": 0.0,
+      "hits": 2,
+      "hit_rate_decisive": 1.0,
+      "hit_ci95": [
+        0.342,
+        1.0
+      ],
+      "mean_gross_bps": 23.352678134969597,
+      "mean_net_bps": 21.352678134969597
+    },
+    "XAGUSD": {
+      "n": 1,
+      "decisive": 0,
+      "sideways_share": 1.0,
+      "hits": 0,
+      "mean_gross_bps": -43.65410886546124,
+      "mean_net_bps": -49.65410886546124
+    },
+    "XAUUSD": {
+      "n": 4,
+      "decisive": 3,
+      "sideways_share": 0.25,
+      "hits": 0,
+      "hit_rate_decisive": 0.0,
+      "hit_ci95": [
+        0.0,
+        0.562
+      ],
+      "mean_gross_bps": -39.42322062185672,
+      "mean_net_bps": -42.42322062185672
+    },
+    "XRPUSD": {
+      "n": 42,
+      "decisive": 27,
+      "sideways_share": 0.3571428571428571,
+      "hits": 12,
+      "hit_rate_decisive": 0.4444444444444444,
+      "hit_ci95": [
+        0.276,
+        0.627
+      ],
+      "mean_gross_bps": -13.311238554506236,
+      "mean_net_bps": -28.31123855450624
+    }
+  },
+  "by_score_bucket": {
+    "25-40": {
+      "n": 240,
+      "decisive": 165,
+      "sideways_share": 0.3125,
+      "hits": 87,
+      "hit_rate_decisive": 0.5272727272727272,
+      "hit_ci95": [
+        0.451,
+        0.602
+      ],
+      "mean_gross_bps": 0.4112468991807732,
+      "mean_net_bps": -10.722086434152562
+    },
+    "40-60": {
+      "n": 23,
+      "decisive": 16,
+      "sideways_share": 0.30434782608695654,
+      "hits": 10,
+      "hit_rate_decisive": 0.625,
+      "hit_ci95": [
+        0.386,
+        0.815
+      ],
+      "mean_gross_bps": 52.001381959371415,
+      "mean_net_bps": 37.78399065502359
+    }
+  },
+  "note": "Hit rate is measured on decisive (UP/DOWN) outcomes; SIDEWAYS counts against the preference in n but not in the hit-rate denominator. Recommendations around one event are correlated, so effective samples are fewer than n.",
+  "validation": {
+    "15m": false,
+    "1h": false,
+    "4h": false,
+    "24h": false
+  }
+}

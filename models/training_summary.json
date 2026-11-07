@@ -1,0 +1,210 @@
+{
+  "trained_at": "2026-11-01 04:25 UTC",
+  "reports": {
+    "pre_900": {
+      "stage": "pre",
+      "horizon_s": 900,
+      "n_samples": 330,
+      "status": "EXPERIMENTAL",
+      "reason": "did not beat prior baseline by required margin and/or calibration error too high on held-out test",
+      "model_version": "2026-11-01-n330",
+      "n_trainval": 277,
+      "n_test": 53,
+      "test_start": 1793341740,
+      "chosen_model": "random_forest",
+      "candidates": {
+        "logreg": {
+          "oof_brier": 1.2090693995840478,
+          "oof_baseline_brier": 0.7264995076206364,
+          "oof_logloss": 2.8141369088031443,
+          "n_oof": 196
+        },
+        "random_forest": {
+          "oof_brier": 0.7483333927682533,
+          "oof_baseline_brier": 0.7264995076206364,
+          "oof_logloss": 1.2303524045700063,
+          "n_oof": 196
+        },
+        "grad_boosting": {
+          "oof_brier": 1.2266845254725647,
+          "oof_baseline_brier": 0.7264995076206364,
+          "oof_logloss": 4.293255986564563,
+          "n_oof": 196
+        }
+      },
+      "test": {
+        "brier": 0.7782831395561572,
+        "brier_uncalibrated": 0.6848706329836537,
+        "baseline_brier": 0.7205722949557181,
+        "logloss": 1.2930108251017047,
+        "ece": 0.19268751016308014,
+        "accuracy": 0.1509433962264151,
+        "baseline_accuracy": 0.22641509433962265,
+        "n": 53,
+        "brier_skill": -0.08009029073756668
+      },
+      "importance_top": {
+        "z1": 0.11493504745351453,
+        "vol_pct": 0.0737657220476013,
+        "dd24": 0.05183492567747753,
+        "hour_cos": 0.047751222315488194,
+        "cat_FED_RATE": 0.04759484614537701,
+        "z24": 0.045842836012713405,
+        "hour_sin": 0.038988305592410066,
+        "cat_FED_SPEECH": 0.03725332946481826
+      },
+      "columns_n": 68
+    },
+    "pre_3600": {
+      "stage": "pre",
+      "horizon_s": 3600,
+      "n_samples": 330,
+      "status": "EXPERIMENTAL",
+      "reason": "did not beat prior baseline by required margin and/or calibration error too high on held-out test",
+      "model_version": "2026-11-01-n330",
+      "n_trainval": 270,
+      "n_test": 53,
+      "test_start": 1793341740,
+      "chosen_model": "random_forest",
+      "candidates": {
+        "logreg": {
+          "oof_brier": 0.926686283477359,
+          "oof_baseline_brier": 0.662880823647632,
+          "oof_logloss": 1.8609160395257875,
+          "n_oof": 189
+        },
+        "random_forest": {
+          "oof_brier": 0.6855477163602858,
+          "oof_baseline_brier": 0.662880823647632,
+          "oof_logloss": 1.142674504602755,
+          "n_oof": 189
+        },
+        "grad_boosting": {
+          "oof_brier": 0.9949260327617231,
+          "oof_baseline_brier": 0.662880823647632,
+          "oof_logloss": 3.674891702563459,
+          "n_oof": 189
+        }
+      },
+      "test": {
+        "brier": 0.7281823815854661,
+        "brier_uncalibrated": 0.676918884148625,
+        "baseline_brier": 0.7281546982977627,
+        "logloss": 1.2141903766921212,
+        "ece": 0.12333817165651755,
+        "accuracy": 0.32075471698113206,
+        "baseline_accuracy": 0.22641509433962265,
+        "n": 53,
+        "brier_skill": -3.801841527373284e-05
+      },
+      "importance_top": {
+        "z1": 0.10457881116268859,
+        "hour_sin": 0.06554211774656134,
+        "hour_cos": 0.05800367560183284,
+        "vol_ratio": 0.057899108934417,
+        "dd24": 0.05317989799322568,
+        "vol_pct": 0.052854652095561394,
+        "z24": 0.05074587527996529,
+        "z4": 0.04872904245525892
+      },
+      "columns_n": 68
+    },
+    "pre_14400": {
+      "stage": "pre",
+      "horizon_s": 14400,
+      "n_samples": 330,
+      "status": "EXPERIMENTAL",
+      "reason": "did not beat prior baseline by required margin and/or calibration error too high on held-out test",
+      "model_version": "2026-11-01-n330",
+      "n_trainval": 242,
+      "n_test": 53,
+      "test_start": 1793341740,
+      "chosen_model": "random_forest",
+      "candidates": {
+        "logreg": {
+          "oof_brier": 0.8749427769306771,
+          "oof_baseline_brier": 0.6666827930560708,
+          "oof_logloss": 1.6512314545204636,
+          "n_oof": 175
+        },
+        "random_forest": {
+          "oof_brier": 0.66769706424595,
+          "oof_baseline_brier": 0.6666827930560708,
+          "oof_logloss": 1.1061986301070328,
+          "n_oof": 175
+        },
+        "grad_boosting": {
+          "oof_brier": 0.9671185833643631,
+          "oof_baseline_brier": 0.6666827930560708,
+          "oof_logloss": 2.4913959100488396,
+          "n_oof": 175
+        }
+      },
+      "test": {
+        "brier": 0.8433760031970744,
+        "brier_uncalibrated": 0.694214487465829,
+        "baseline_brier": 0.7543567538682782,
+        "logloss": 1.3921417954796542,
+        "ece": 0.27848233136039796,
+        "accuracy": 0.11320754716981132,
+        "baseline_accuracy": 0.11320754716981132,
+        "n": 53,
+        "brier_skill": -0.11800683015338964
+      },
+      "importance_top": {
+        "z1": 0.08705985423734919,
+        "z4": 0.07991844126759802,
+        "z24": 0.05475297532192869,
+        "vol_pct": 0.05391453562641483,
+        "dd24": 0.052866610425603144,
+        "vol_ratio": 0.05143391932010122,
+        "hour_sin": 0.025843439294263654,
+        "hour_cos": 0.024637468636720228
+      },
+      "columns_n": 68
+    },
+    "pre_86400": {
+      "stage": "pre",
+      "horizon_s": 86400,
+      "n_samples": 249,
+      "status": "NOT_TRAINED",
+      "reason": "INSUFFICIENT HISTORICAL DATA after time split (trainval=142, test=14)",
+      "model_version": "2026-11-01-n249",
+      "n_trainval": 142,
+      "n_test": 14,
+      "test_start": 1793316600
+    },
+    "post_900": {
+      "stage": "post",
+      "horizon_s": 900,
+      "n_samples": 0,
+      "status": "NOT_TRAINED",
+      "reason": "INSUFFICIENT HISTORICAL DATA: 0 labelled samples (need >= 190)",
+      "model_version": "2026-11-01-n0"
+    },
+    "post_3600": {
+      "stage": "post",
+      "horizon_s": 3600,
+      "n_samples": 0,
+      "status": "NOT_TRAINED",
+      "reason": "INSUFFICIENT HISTORICAL DATA: 0 labelled samples (need >= 190)",
+      "model_version": "2026-11-01-n0"
+    },
+    "post_14400": {
+      "stage": "post",
+      "horizon_s": 14400,
+      "n_samples": 0,
+      "status": "NOT_TRAINED",
+      "reason": "INSUFFICIENT HISTORICAL DATA: 0 labelled samples (need >= 190)",
+      "model_version": "2026-11-01-n0"
+    },
+    "post_86400": {
+      "stage": "post",
+      "horizon_s": 86400,
+      "n_samples": 0,
+      "status": "NOT_TRAINED",
+      "reason": "INSUFFICIENT HISTORICAL DATA: 0 labelled samples (need >= 190)",
+      "model_version": "2026-11-01-n0"
+    }
+  }
+}
