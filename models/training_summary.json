@@ -1,0 +1,253 @@
+{
+  "trained_at": "2026-11-15 04:27 UTC",
+  "reports": {
+    "pre_900": {
+      "stage": "pre",
+      "horizon_s": 900,
+      "n_samples": 723,
+      "status": "EXPERIMENTAL",
+      "reason": "did not beat prior baseline by required margin and/or calibration error too high on held-out test",
+      "model_version": "2026-11-15-n723",
+      "n_trainval": 494,
+      "n_test": 229,
+      "test_start": 1793971800,
+      "chosen_model": "random_forest",
+      "candidates": {
+        "logreg": {
+          "oof_brier": 0.9870450130009144,
+          "oof_baseline_brier": 0.6644897693801632,
+          "oof_logloss": 2.1372873929200815,
+          "n_oof": 238
+        },
+        "random_forest": {
+          "oof_brier": 0.6877015855478137,
+          "oof_baseline_brier": 0.6644897693801632,
+          "oof_logloss": 1.126606119611008,
+          "n_oof": 238
+        },
+        "grad_boosting": {
+          "oof_brier": 0.8957008725515508,
+          "oof_baseline_brier": 0.6644897693801632,
+          "oof_logloss": 1.7665118715499963,
+          "n_oof": 238
+        }
+      },
+      "test": {
+        "brier": 0.6302119424788182,
+        "brier_uncalibrated": 0.7022849208647266,
+        "baseline_brier": 0.6342072184806802,
+        "logloss": 1.0363571998271868,
+        "ece": 0.11335303754289566,
+        "accuracy": 0.40611353711790393,
+        "baseline_accuracy": 0.4410480349344978,
+        "n": 229,
+        "brier_skill": 0.00629963817099588
+      },
+      "importance_top": {
+        "vol_pct": 0.08198033142183148,
+        "z1": 0.052855351589092416,
+        "hour_cos": 0.05281261280723104,
+        "hour_sin": 0.04009454421637101,
+        "z24": 0.03794385447346401,
+        "dd24": 0.030412802728699468,
+        "vol_ratio": 0.029851890678257813,
+        "z4": 0.026803050802709356
+      },
+      "columns_n": 68
+    },
+    "pre_3600": {
+      "stage": "pre",
+      "horizon_s": 3600,
+      "n_samples": 723,
+      "status": "VALIDATED",
+      "reason": "",
+      "model_version": "2026-11-15-n723",
+      "n_trainval": 494,
+      "n_test": 229,
+      "test_start": 1793971800,
+      "chosen_model": "random_forest",
+      "candidates": {
+        "logreg": {
+          "oof_brier": 1.0792895104968923,
+          "oof_baseline_brier": 0.7021865656779447,
+          "oof_logloss": 2.6911497066740515,
+          "n_oof": 238
+        },
+        "random_forest": {
+          "oof_brier": 0.6425264361265438,
+          "oof_baseline_brier": 0.7021865656779447,
+          "oof_logloss": 1.063909767426992,
+          "n_oof": 238
+        },
+        "grad_boosting": {
+          "oof_brier": 0.8458490382967487,
+          "oof_baseline_brier": 0.7021865656779447,
+          "oof_logloss": 1.6253531836930233,
+          "n_oof": 238
+        }
+      },
+      "test": {
+        "brier": 0.6522478949009101,
+        "brier_uncalibrated": 0.6740978308119623,
+        "baseline_brier": 0.6655861999335598,
+        "logloss": 1.078063830803446,
+        "ece": 0.04478651244401132,
+        "accuracy": 0.4497816593886463,
+        "baseline_accuracy": 0.2925764192139738,
+        "n": 229,
+        "brier_skill": 0.020039936275693893
+      },
+      "importance_top": {
+        "vol_pct": 0.07393691258901802,
+        "hour_cos": 0.06701544879799266,
+        "z1": 0.06064548615308344,
+        "hour_sin": 0.055125753355166486,
+        "z24": 0.03907259260436106,
+        "dd24": 0.03850100796843755,
+        "vol_ratio": 0.027684226511174487,
+        "z4": 0.024125110079157335
+      },
+      "columns_n": 68
+    },
+    "pre_14400": {
+      "stage": "pre",
+      "horizon_s": 14400,
+      "n_samples": 723,
+      "status": "VALIDATED",
+      "reason": "",
+      "model_version": "2026-11-15-n723",
+      "n_trainval": 494,
+      "n_test": 229,
+      "test_start": 1793971800,
+      "chosen_model": "random_forest",
+      "candidates": {
+        "logreg": {
+          "oof_brier": 1.1450969111854834,
+          "oof_baseline_brier": 0.7064375883958117,
+          "oof_logloss": 2.831051768830612,
+          "n_oof": 238
+        },
+        "random_forest": {
+          "oof_brier": 0.7164260161554027,
+          "oof_baseline_brier": 0.7064375883958117,
+          "oof_logloss": 1.1688771294799065,
+          "n_oof": 238
+        },
+        "grad_boosting": {
+          "oof_brier": 0.9311851943094424,
+          "oof_baseline_brier": 0.7064375883958117,
+          "oof_logloss": 1.7928383665218248,
+          "n_oof": 238
+        }
+      },
+      "test": {
+        "brier": 0.6510962954197805,
+        "brier_uncalibrated": 0.6592094615697919,
+        "baseline_brier": 0.6698357136041981,
+        "logloss": 1.0731055044098075,
+        "ece": 0.020357272738787725,
+        "accuracy": 0.3624454148471616,
+        "baseline_accuracy": 0.23580786026200873,
+        "n": 229,
+        "brier_skill": 0.027976140722007825
+      },
+      "importance_top": {
+        "vol_pct": 0.06050112047547884,
+        "z4": 0.054640492358925985,
+        "hour_sin": 0.046686229675669266,
+        "z1": 0.04261429319799859,
+        "vol_ratio": 0.0384334773501895,
+        "dd24": 0.03738037956079462,
+        "z24": 0.031866791631216716,
+        "hour_cos": 0.025463318848662892
+      },
+      "columns_n": 68
+    },
+    "pre_86400": {
+      "stage": "pre",
+      "horizon_s": 86400,
+      "n_samples": 543,
+      "status": "EXPERIMENTAL",
+      "reason": "did not beat prior baseline by required margin and/or calibration error too high on held-out test",
+      "model_version": "2026-11-15-n543",
+      "n_trainval": 399,
+      "n_test": 115,
+      "test_start": 1793977200,
+      "chosen_model": "random_forest",
+      "candidates": {
+        "logreg": {
+          "oof_brier": 1.0198229609215521,
+          "oof_baseline_brier": 0.6569775842021189,
+          "oof_logloss": 2.240635552583155,
+          "n_oof": 171
+        },
+        "random_forest": {
+          "oof_brier": 0.6621738429098099,
+          "oof_baseline_brier": 0.6569775842021189,
+          "oof_logloss": 1.1118498770011502,
+          "n_oof": 171
+        },
+        "grad_boosting": {
+          "oof_brier": 0.8938682197966751,
+          "oof_baseline_brier": 0.6569775842021189,
+          "oof_logloss": 1.7895412621137918,
+          "n_oof": 171
+        }
+      },
+      "test": {
+        "brier": 0.6415945253407679,
+        "brier_uncalibrated": 0.6642610525138731,
+        "baseline_brier": 0.6283922158620697,
+        "logloss": 1.0596329700277745,
+        "ece": 0.06705326959988123,
+        "accuracy": 0.40869565217391307,
+        "baseline_accuracy": 0.5043478260869565,
+        "n": 115,
+        "brier_skill": -0.021009664259743266
+      },
+      "importance_top": {
+        "z1": 0.07748080421147785,
+        "z24": 0.05871042539441362,
+        "dd24": 0.05402276476767909,
+        "z4": 0.04682841608734045,
+        "hour_cos": 0.04199560204364631,
+        "vol_pct": 0.031360761030314634,
+        "hour_sin": 0.030751565764412625,
+        "vol_ratio": 0.028179465673565513
+      },
+      "columns_n": 68
+    },
+    "post_900": {
+      "stage": "post",
+      "horizon_s": 900,
+      "n_samples": 0,
+      "status": "NOT_TRAINED",
+      "reason": "INSUFFICIENT HISTORICAL DATA: 0 labelled samples (need >= 190)",
+      "model_version": "2026-11-15-n0"
+    },
+    "post_3600": {
+      "stage": "post",
+      "horizon_s": 3600,
+      "n_samples": 0,
+      "status": "NOT_TRAINED",
+      "reason": "INSUFFICIENT HISTORICAL DATA: 0 labelled samples (need >= 190)",
+      "model_version": "2026-11-15-n0"
+    },
+    "post_14400": {
+      "stage": "post",
+      "horizon_s": 14400,
+      "n_samples": 0,
+      "status": "NOT_TRAINED",
+      "reason": "INSUFFICIENT HISTORICAL DATA: 0 labelled samples (need >= 190)",
+      "model_version": "2026-11-15-n0"
+    },
+    "post_86400": {
+      "stage": "post",
+      "horizon_s": 86400,
+      "n_samples": 0,
+      "status": "NOT_TRAINED",
+      "reason": "INSUFFICIENT HISTORICAL DATA: 0 labelled samples (need >= 190)",
+      "model_version": "2026-11-15-n0"
+    }
+  }
+}

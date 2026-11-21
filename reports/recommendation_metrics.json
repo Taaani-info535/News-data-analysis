@@ -1,0 +1,341 @@
+{
+  "overall": {
+    "n": 1346,
+    "decisive": 859,
+    "sideways_share": 0.361812778603269,
+    "hits": 547,
+    "hit_rate_decisive": 0.6367869615832363,
+    "hit_ci95": [
+      0.604,
+      0.668
+    ],
+    "mean_gross_bps": 56.83870047778065,
+    "mean_net_bps": 47.037066005269494
+  },
+  "pending": 26,
+  "by_horizon": {
+    "4h": {
+      "n": 410,
+      "decisive": 265,
+      "sideways_share": 0.35365853658536583,
+      "hits": 144,
+      "hit_rate_decisive": 0.5433962264150943,
+      "hit_ci95": [
+        0.483,
+        0.602
+      ],
+      "mean_gross_bps": 25.604889750524503,
+      "mean_net_bps": 17.16220682369524
+    },
+    "1h": {
+      "n": 288,
+      "decisive": 202,
+      "sideways_share": 0.29861111111111116,
+      "hits": 103,
+      "hit_rate_decisive": 0.5099009900990099,
+      "hit_ci95": [
+        0.441,
+        0.578
+      ],
+      "mean_gross_bps": -0.24107446015160872,
+      "mean_net_bps": -11.024060571262723
+    },
+    "24h": {
+      "n": 616,
+      "decisive": 364,
+      "sideways_share": 0.40909090909090906,
+      "hits": 284,
+      "hit_rate_decisive": 0.7802197802197802,
+      "hit_ci95": [
+        0.735,
+        0.82
+      ],
+      "mean_gross_bps": 107.62706510049613,
+      "mean_net_bps": 97.46959756802858
+    },
+    "15m": {
+      "n": 32,
+      "decisive": 28,
+      "sideways_share": 0.125,
+      "hits": 16,
+      "hit_rate_decisive": 0.5714285714285714,
+      "hit_ci95": [
+        0.391,
+        0.735
+      ],
+      "mean_gross_bps": -6.936144125132583,
+      "mean_net_bps": -18.467394125132582
+    }
+  },
+  "by_instrument": {
+    "AUDUSD": {
+      "n": 34,
+      "decisive": 26,
+      "sideways_share": 0.23529411764705888,
+      "hits": 19,
+      "hit_rate_decisive": 0.7307692307692307,
+      "hit_ci95": [
+        0.539,
+        0.863
+      ],
+      "mean_gross_bps": 17.629324849654495,
+      "mean_net_bps": 16.12932484965449
+    },
+    "BNBUSD": {
+      "n": 166,
+      "decisive": 101,
+      "sideways_share": 0.39156626506024095,
+      "hits": 66,
+      "hit_rate_decisive": 0.6534653465346535,
+      "hit_ci95": [
+        0.557,
+        0.739
+      ],
+      "mean_gross_bps": 49.5908397589512,
+      "mean_net_bps": 37.590839758951205
+    },
+    "BTCUSD": {
+      "n": 196,
+      "decisive": 129,
+      "sideways_share": 0.34183673469387754,
+      "hits": 84,
+      "hit_rate_decisive": 0.6511627906976745,
+      "hit_ci95": [
+        0.566,
+        0.728
+      ],
+      "mean_gross_bps": 56.59112558978774,
+      "mean_net_bps": 46.59112558978774
+    },
+    "DXY": {
+      "n": 51,
+      "decisive": 35,
+      "sideways_share": 0.3137254901960784,
+      "hits": 23,
+      "hit_rate_decisive": 0.6571428571428571,
+      "hit_ci95": [
+        0.492,
+        0.792
+      ],
+      "mean_gross_bps": 4.557514095472903,
+      "mean_net_bps": 2.5575140954729014
+    },
+    "ETHUSD": {
+      "n": 195,
+      "decisive": 121,
+      "sideways_share": 0.37948717948717947,
+      "hits": 81,
+      "hit_rate_decisive": 0.6694214876033058,
+      "hit_ci95": [
+        0.582,
+        0.747
+      ],
+      "mean_gross_bps": 103.33785924574102,
+      "mean_net_bps": 93.33785924574099
+    },
+    "EURUSD": {
+      "n": 11,
+      "decisive": 7,
+      "sideways_share": 0.36363636363636365,
+      "hits": 4,
+      "hit_rate_decisive": 0.5714285714285714,
+      "hit_ci95": [
+        0.25,
+        0.842
+      ],
+      "mean_gross_bps": 1.394248631645093,
+      "mean_net_bps": -0.10575136835490748
+    },
+    "GBPUSD": {
+      "n": 3,
+      "decisive": 3,
+      "sideways_share": 0.0,
+      "hits": 1,
+      "hit_rate_decisive": 0.3333333333333333,
+      "hit_ci95": [
+        0.061,
+        0.792
+      ],
+      "mean_gross_bps": -7.010971552085541,
+      "mean_net_bps": -8.510971552085541
+    },
+    "NAS100": {
+      "n": 60,
+      "decisive": 37,
+      "sideways_share": 0.3833333333333333,
+      "hits": 15,
+      "hit_rate_decisive": 0.40540540540540543,
+      "hit_ci95": [
+        0.263,
+        0.565
+      ],
+      "mean_gross_bps": -6.202000930629205,
+      "mean_net_bps": -8.202000930629204
+    },
+    "NZDUSD": {
+      "n": 29,
+      "decisive": 13,
+      "sideways_share": 0.5517241379310345,
+      "hits": 7,
+      "hit_rate_decisive": 0.5384615384615384,
+      "hit_ci95": [
+        0.291,
+        0.768
+      ],
+      "mean_gross_bps": -2.0630731667864515,
+      "mean_net_bps": -3.5630731667864506
+    },
+    "SOLUSD": {
+      "n": 223,
+      "decisive": 139,
+      "sideways_share": 0.37668161434977576,
+      "hits": 82,
+      "hit_rate_decisive": 0.5899280575539568,
+      "hit_ci95": [
+        0.507,
+        0.668
+      ],
+      "mean_gross_bps": 55.98145142451783,
+      "mean_net_bps": 40.98145142451783
+    },
+    "SPX": {
+      "n": 39,
+      "decisive": 26,
+      "sideways_share": 0.33333333333333337,
+      "hits": 11,
+      "hit_rate_decisive": 0.4230769230769231,
+      "hit_ci95": [
+        0.255,
+        0.611
+      ],
+      "mean_gross_bps": 13.927813408595249,
+      "mean_net_bps": 11.927813408595245
+    },
+    "US30": {
+      "n": 44,
+      "decisive": 34,
+      "sideways_share": 0.2272727272727273,
+      "hits": 25,
+      "hit_rate_decisive": 0.7352941176470589,
+      "hit_ci95": [
+        0.569,
+        0.854
+      ],
+      "mean_gross_bps": 40.80766706068979,
+      "mean_net_bps": 38.80766706068979
+    },
+    "USDCAD": {
+      "n": 8,
+      "decisive": 5,
+      "sideways_share": 0.375,
+      "hits": 0,
+      "hit_rate_decisive": 0.0,
+      "hit_ci95": [
+        0.0,
+        0.434
+      ],
+      "mean_gross_bps": -5.036076882699561,
+      "mean_net_bps": -6.536076882699561
+    },
+    "USDCHF": {
+      "n": 1,
+      "decisive": 1,
+      "sideways_share": 0.0,
+      "hits": 0,
+      "hit_rate_decisive": 0.0,
+      "hit_ci95": [
+        0.0,
+        0.793
+      ],
+      "mean_gross_bps": -13.16402719726092,
+      "mean_net_bps": -14.66402719726092
+    },
+    "USDJPY": {
+      "n": 2,
+      "decisive": 2,
+      "sideways_share": 0.0,
+      "hits": 1,
+      "hit_rate_decisive": 0.5,
+      "hit_ci95": [
+        0.095,
+        0.905
+      ],
+      "mean_gross_bps": -1.8489977321514548,
+      "mean_net_bps": -3.3489977321514544
+    },
+    "XAGUSD": {
+      "n": 30,
+      "decisive": 18,
+      "sideways_share": 0.4,
+      "hits": 18,
+      "hit_rate_decisive": 1.0,
+      "hit_ci95": [
+        0.824,
+        1.0
+      ],
+      "mean_gross_bps": 158.21421577807584,
+      "mean_net_bps": 152.21421577807584
+    },
+    "XAUUSD": {
+      "n": 47,
+      "decisive": 36,
+      "sideways_share": 0.23404255319148937,
+      "hits": 33,
+      "hit_rate_decisive": 0.9166666666666666,
+      "hit_ci95": [
+        0.782,
+        0.971
+      ],
+      "mean_gross_bps": 99.96030698926296,
+      "mean_net_bps": 96.96030698926296
+    },
+    "XRPUSD": {
+      "n": 207,
+      "decisive": 126,
+      "sideways_share": 0.3913043478260869,
+      "hits": 77,
+      "hit_rate_decisive": 0.6111111111111112,
+      "hit_ci95": [
+        0.524,
+        0.692
+      ],
+      "mean_gross_bps": 60.02844136631301,
+      "mean_net_bps": 45.028441366313004
+    }
+  },
+  "by_score_bucket": {
+    "25-40": {
+      "n": 1035,
+      "decisive": 663,
+      "sideways_share": 0.35942028985507246,
+      "hits": 419,
+      "hit_rate_decisive": 0.6319758672699849,
+      "hit_ci95": [
+        0.595,
+        0.668
+      ],
+      "mean_gross_bps": 48.9735290310148,
+      "mean_net_bps": 39.45758700202929
+    },
+    "40-60": {
+      "n": 311,
+      "decisive": 196,
+      "sideways_share": 0.3697749196141479,
+      "hits": 128,
+      "hit_rate_decisive": 0.6530612244897959,
+      "hit_ci95": [
+        0.584,
+        0.716
+      ],
+      "mean_gross_bps": 83.01378873309464,
+      "mean_net_bps": 72.26137715753194
+    }
+  },
+  "note": "Hit rate is measured on decisive (UP/DOWN) outcomes; SIDEWAYS counts against the preference in n but not in the hit-rate denominator. Recommendations around one event are correlated, so effective samples are fewer than n.",
+  "validation": {
+    "15m": false,
+    "1h": false,
+    "4h": false,
+    "24h": true
+  }
+}
