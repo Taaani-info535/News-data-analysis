@@ -1,0 +1,54 @@
+{
+  "stage": "pre",
+  "horizon_s": 86400,
+  "n_samples": 679,
+  "status": "EXPERIMENTAL",
+  "reason": "did not beat prior baseline by required margin and/or calibration error too high on held-out test",
+  "model_version": "2026-11-22-n679",
+  "n_trainval": 543,
+  "n_test": 131,
+  "test_start": 1794922200,
+  "chosen_model": "random_forest",
+  "candidates": {
+    "logreg": {
+      "oof_brier": 0.9384817134837102,
+      "oof_baseline_brier": 0.6553339003880257,
+      "oof_logloss": 2.1419845726882154,
+      "n_oof": 294
+    },
+    "random_forest": {
+      "oof_brier": 0.6640378930794989,
+      "oof_baseline_brier": 0.6553339003880257,
+      "oof_logloss": 1.1045371383753293,
+      "n_oof": 294
+    },
+    "grad_boosting": {
+      "oof_brier": 0.8567389782710729,
+      "oof_baseline_brier": 0.6553339003880257,
+      "oof_logloss": 1.654890524485179,
+      "n_oof": 294
+    }
+  },
+  "test": {
+    "brier": 0.6630822639220951,
+    "brier_uncalibrated": 0.7075007404700647,
+    "baseline_brier": 0.6359973713803092,
+    "logloss": 1.099145635117971,
+    "ece": 0.06998900234174718,
+    "accuracy": 0.44274809160305345,
+    "baseline_accuracy": 0.45038167938931295,
+    "n": 131,
+    "brier_skill": -0.04258648504002993
+  },
+  "importance_top": {
+    "z1": 0.07313927059016168,
+    "dd24": 0.05963728376682398,
+    "z24": 0.049972716209225276,
+    "vol_pct": 0.039417425639257465,
+    "z4": 0.03677500709964909,
+    "hour_cos": 0.033843315823345876,
+    "vol_ratio": 0.03130039302816386,
+    "hour_sin": 0.02312171061476742
+  },
+  "columns_n": 68
+}

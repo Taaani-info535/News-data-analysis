@@ -1,0 +1,5689 @@
+{
+  "generated_at": 1795854441,
+  "note": "Directional filter only. Not a trade signal. UAMIS never trades.",
+  "validation": {
+    "15m": false,
+    "1h": false,
+    "4h": false,
+    "24h": true
+  },
+  "currency": {
+    "USD": {
+      "currency": "USD",
+      "score": -48.2,
+      "direction": "BEARISH",
+      "confidence": "LOW",
+      "reasons": [
+        "USD headline tone dovish (keyword): Agencies announce dollar thresholds for applicability of truth in lend",
+        "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)"
+      ],
+      "strength_z": null,
+      "data_ts": null
+    },
+    "EUR": {
+      "currency": "EUR",
+      "score": 0.0,
+      "direction": "NEUTRAL",
+      "confidence": "n/a",
+      "reasons": [
+        "no recent released data / tone for this currency"
+      ],
+      "strength_z": null,
+      "data_ts": null
+    },
+    "GBP": {
+      "currency": "GBP",
+      "score": 0.0,
+      "direction": "NEUTRAL",
+      "confidence": "n/a",
+      "reasons": [
+        "no recent released data / tone for this currency"
+      ],
+      "strength_z": null,
+      "data_ts": null
+    },
+    "JPY": {
+      "currency": "JPY",
+      "score": 0.0,
+      "direction": "NEUTRAL",
+      "confidence": "n/a",
+      "reasons": [
+        "no recent released data / tone for this currency"
+      ],
+      "strength_z": null,
+      "data_ts": null
+    },
+    "CHF": {
+      "currency": "CHF",
+      "score": 0.0,
+      "direction": "NEUTRAL",
+      "confidence": "n/a",
+      "reasons": [
+        "no recent released data / tone for this currency"
+      ],
+      "strength_z": null,
+      "data_ts": null
+    },
+    "CAD": {
+      "currency": "CAD",
+      "score": 0.0,
+      "direction": "NEUTRAL",
+      "confidence": "n/a",
+      "reasons": [
+        "no recent released data / tone for this currency"
+      ],
+      "strength_z": null,
+      "data_ts": null
+    },
+    "AUD": {
+      "currency": "AUD",
+      "score": 0.0,
+      "direction": "NEUTRAL",
+      "confidence": "n/a",
+      "reasons": [
+        "no recent released data / tone for this currency"
+      ],
+      "strength_z": null,
+      "data_ts": null
+    },
+    "NZD": {
+      "currency": "NZD",
+      "score": 0.0,
+      "direction": "NEUTRAL",
+      "confidence": "n/a",
+      "reasons": [
+        "no recent released data / tone for this currency"
+      ],
+      "strength_z": null,
+      "data_ts": null
+    }
+  },
+  "recs": {
+    "XAUUSD": {
+      "900": {
+        "instrument": "XAUUSD",
+        "horizon_s": 900,
+        "direction": "NEUTRAL / WAIT",
+        "score": 6.3,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795806000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.05,
+        "group": "",
+        "kind": "metal",
+        "thr": null,
+        "vol_pct": 0.988909426987061,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "rates": 0.878,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null
+        },
+        "horizon": "15m"
+      },
+      "3600": {
+        "instrument": "XAUUSD",
+        "horizon_s": 3600,
+        "direction": "NEUTRAL / WAIT",
+        "score": 12.5,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795806000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.1,
+        "group": "",
+        "kind": "metal",
+        "thr": null,
+        "vol_pct": 0.988909426987061,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "rates": 0.878,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null
+        },
+        "horizon": "1h"
+      },
+      "14400": {
+        "instrument": "XAUUSD",
+        "horizon_s": 14400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 15.1,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795806000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.12,
+        "group": "",
+        "kind": "metal",
+        "thr": null,
+        "vol_pct": 0.988909426987061,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "rates": 0.878,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null
+        },
+        "horizon": "4h"
+      },
+      "86400": {
+        "instrument": "XAUUSD",
+        "horizon_s": 86400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 18.8,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795806000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.15,
+        "group": "",
+        "kind": "metal",
+        "thr": null,
+        "vol_pct": 0.988909426987061,
+        "validated": true,
+        "components": {
+          "macro": null,
+          "rates": 0.878,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null
+        },
+        "horizon": "24h"
+      }
+    },
+    "XAGUSD": {
+      "900": {
+        "instrument": "XAGUSD",
+        "horizon_s": 900,
+        "direction": "NEUTRAL / WAIT",
+        "score": 7.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795806000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.056,
+        "group": "",
+        "kind": "metal",
+        "thr": null,
+        "vol_pct": 0.9925719591457753,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "rates": 0.878,
+          "model": null,
+          "reaction": null,
+          "price": null
+        },
+        "horizon": "15m"
+      },
+      "3600": {
+        "instrument": "XAGUSD",
+        "horizon_s": 3600,
+        "direction": "NEUTRAL / WAIT",
+        "score": 13.9,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795806000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.111,
+        "group": "",
+        "kind": "metal",
+        "thr": null,
+        "vol_pct": 0.9925719591457753,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "rates": 0.878,
+          "model": null,
+          "reaction": null,
+          "price": null
+        },
+        "horizon": "1h"
+      },
+      "14400": {
+        "instrument": "XAGUSD",
+        "horizon_s": 14400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 16.7,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795806000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.133,
+        "group": "",
+        "kind": "metal",
+        "thr": null,
+        "vol_pct": 0.9925719591457753,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "rates": 0.878,
+          "model": null,
+          "reaction": null,
+          "price": null
+        },
+        "horizon": "4h"
+      },
+      "86400": {
+        "instrument": "XAGUSD",
+        "horizon_s": 86400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 20.4,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795806000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.163,
+        "group": "",
+        "kind": "metal",
+        "thr": null,
+        "vol_pct": 0.9925719591457753,
+        "validated": true,
+        "components": {
+          "macro": null,
+          "rates": 0.878,
+          "model": null,
+          "reaction": null,
+          "price": null
+        },
+        "horizon": "24h"
+      }
+    },
+    "DXY": {
+      "900": {
+        "instrument": "DXY",
+        "horizon_s": 900,
+        "direction": "NEUTRAL / WAIT",
+        "score": -7.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795806000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.056,
+        "group": "",
+        "kind": "dollar_index",
+        "thr": null,
+        "vol_pct": 0.6359570661896243,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "rates": -0.878,
+          "model": null,
+          "reaction": null,
+          "price": null
+        },
+        "horizon": "15m"
+      },
+      "3600": {
+        "instrument": "DXY",
+        "horizon_s": 3600,
+        "direction": "NEUTRAL / WAIT",
+        "score": -13.9,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795806000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.111,
+        "group": "",
+        "kind": "dollar_index",
+        "thr": null,
+        "vol_pct": 0.6359570661896243,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "rates": -0.878,
+          "model": null,
+          "reaction": null,
+          "price": null
+        },
+        "horizon": "1h"
+      },
+      "14400": {
+        "instrument": "DXY",
+        "horizon_s": 14400,
+        "direction": "NEUTRAL / WAIT",
+        "score": -16.7,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795806000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.133,
+        "group": "",
+        "kind": "dollar_index",
+        "thr": null,
+        "vol_pct": 0.6359570661896243,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "rates": -0.878,
+          "model": null,
+          "reaction": null,
+          "price": null
+        },
+        "horizon": "4h"
+      },
+      "86400": {
+        "instrument": "DXY",
+        "horizon_s": 86400,
+        "direction": "NEUTRAL / WAIT",
+        "score": -20.4,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795806000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.163,
+        "group": "",
+        "kind": "dollar_index",
+        "thr": null,
+        "vol_pct": 0.6359570661896243,
+        "validated": true,
+        "components": {
+          "macro": null,
+          "rates": -0.878,
+          "model": null,
+          "reaction": null,
+          "price": null
+        },
+        "horizon": "24h"
+      }
+    },
+    "NAS100": {
+      "900": {
+        "instrument": "NAS100",
+        "horizon_s": 900,
+        "direction": "NEUTRAL / WAIT",
+        "score": 3.1,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795806000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.05,
+        "group": "",
+        "kind": "index",
+        "thr": null,
+        "vol_pct": 0.9472710453283997,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "rates": 0.439,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null
+        },
+        "horizon": "15m"
+      },
+      "3600": {
+        "instrument": "NAS100",
+        "horizon_s": 3600,
+        "direction": "NEUTRAL / WAIT",
+        "score": 6.3,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795806000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.1,
+        "group": "",
+        "kind": "index",
+        "thr": null,
+        "vol_pct": 0.9472710453283997,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "rates": 0.439,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null
+        },
+        "horizon": "1h"
+      },
+      "14400": {
+        "instrument": "NAS100",
+        "horizon_s": 14400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 7.5,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795806000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.12,
+        "group": "",
+        "kind": "index",
+        "thr": null,
+        "vol_pct": 0.9472710453283997,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "rates": 0.439,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null
+        },
+        "horizon": "4h"
+      },
+      "86400": {
+        "instrument": "NAS100",
+        "horizon_s": 86400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 9.4,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795806000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.15,
+        "group": "",
+        "kind": "index",
+        "thr": null,
+        "vol_pct": 0.9472710453283997,
+        "validated": true,
+        "components": {
+          "macro": null,
+          "rates": 0.439,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null
+        },
+        "horizon": "24h"
+      }
+    },
+    "US30": {
+      "900": {
+        "instrument": "US30",
+        "horizon_s": 900,
+        "direction": "NEUTRAL / WAIT",
+        "score": 3.1,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795806000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.05,
+        "group": "",
+        "kind": "index",
+        "thr": null,
+        "vol_pct": 0.9285051067780873,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "rates": 0.439,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null
+        },
+        "horizon": "15m"
+      },
+      "3600": {
+        "instrument": "US30",
+        "horizon_s": 3600,
+        "direction": "NEUTRAL / WAIT",
+        "score": 6.3,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795806000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.1,
+        "group": "",
+        "kind": "index",
+        "thr": null,
+        "vol_pct": 0.9285051067780873,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "rates": 0.439,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null
+        },
+        "horizon": "1h"
+      },
+      "14400": {
+        "instrument": "US30",
+        "horizon_s": 14400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 7.5,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795806000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.12,
+        "group": "",
+        "kind": "index",
+        "thr": null,
+        "vol_pct": 0.9285051067780873,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "rates": 0.439,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null
+        },
+        "horizon": "4h"
+      },
+      "86400": {
+        "instrument": "US30",
+        "horizon_s": 86400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 9.4,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795806000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.15,
+        "group": "",
+        "kind": "index",
+        "thr": null,
+        "vol_pct": 0.9285051067780873,
+        "validated": true,
+        "components": {
+          "macro": null,
+          "rates": 0.439,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null
+        },
+        "horizon": "24h"
+      }
+    },
+    "SPX": {
+      "900": {
+        "instrument": "SPX",
+        "horizon_s": 900,
+        "direction": "NEUTRAL / WAIT",
+        "score": 3.1,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795806000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.05,
+        "group": "",
+        "kind": "index",
+        "thr": null,
+        "vol_pct": 0.9529085872576177,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "rates": 0.439,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null
+        },
+        "horizon": "15m"
+      },
+      "3600": {
+        "instrument": "SPX",
+        "horizon_s": 3600,
+        "direction": "NEUTRAL / WAIT",
+        "score": 6.3,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795806000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.1,
+        "group": "",
+        "kind": "index",
+        "thr": null,
+        "vol_pct": 0.9529085872576177,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "rates": 0.439,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null
+        },
+        "horizon": "1h"
+      },
+      "14400": {
+        "instrument": "SPX",
+        "horizon_s": 14400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 7.5,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795806000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.12,
+        "group": "",
+        "kind": "index",
+        "thr": null,
+        "vol_pct": 0.9529085872576177,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "rates": 0.439,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null
+        },
+        "horizon": "4h"
+      },
+      "86400": {
+        "instrument": "SPX",
+        "horizon_s": 86400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 9.4,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795806000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.15,
+        "group": "",
+        "kind": "index",
+        "thr": null,
+        "vol_pct": 0.9529085872576177,
+        "validated": true,
+        "components": {
+          "macro": null,
+          "rates": 0.439,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null
+        },
+        "horizon": "24h"
+      }
+    },
+    "BTCUSD": {
+      "900": {
+        "instrument": "BTCUSD",
+        "horizon_s": 900,
+        "direction": "STAY AWAY",
+        "score": -9.8,
+        "confidence": "n/a",
+        "status": "STALE",
+        "supporting": [
+          "crypto market: total mcap 24h -5.5%, BTC.D 57.8% (-0.25pp/24h)"
+        ],
+        "contradicting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)"
+        ],
+        "risks": [
+          "price data stale (312 min old)"
+        ],
+        "data_ts": 1795835700,
+        "freshness": "STALE",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.15,
+        "group": "",
+        "kind": "crypto",
+        "thr": null,
+        "vol_pct": 0.9319407008086253,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "rates": 0.527,
+          "risk": null,
+          "cryptomkt": -0.95,
+          "model": null,
+          "reaction": null,
+          "price": null
+        },
+        "horizon": "15m"
+      },
+      "3600": {
+        "instrument": "BTCUSD",
+        "horizon_s": 3600,
+        "direction": "STAY AWAY",
+        "score": -16.6,
+        "confidence": "n/a",
+        "status": "STALE",
+        "supporting": [
+          "crypto market: total mcap 24h -5.5%, BTC.D 57.8% (-0.25pp/24h)"
+        ],
+        "contradicting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)"
+        ],
+        "risks": [
+          "price data stale (312 min old)"
+        ],
+        "data_ts": 1795835700,
+        "freshness": "STALE",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.2,
+        "group": "",
+        "kind": "crypto",
+        "thr": null,
+        "vol_pct": 0.9319407008086253,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "rates": 0.527,
+          "risk": null,
+          "cryptomkt": -0.95,
+          "model": null,
+          "reaction": null,
+          "price": null
+        },
+        "horizon": "1h"
+      },
+      "14400": {
+        "instrument": "BTCUSD",
+        "horizon_s": 14400,
+        "direction": "STAY AWAY",
+        "score": -18.4,
+        "confidence": "n/a",
+        "status": "STALE",
+        "supporting": [
+          "crypto market: total mcap 24h -5.5%, BTC.D 57.8% (-0.25pp/24h)"
+        ],
+        "contradicting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)"
+        ],
+        "risks": [
+          "price data stale (312 min old)"
+        ],
+        "data_ts": 1795835700,
+        "freshness": "STALE",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.26,
+        "group": "",
+        "kind": "crypto",
+        "thr": null,
+        "vol_pct": 0.9319407008086253,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "rates": 0.527,
+          "risk": null,
+          "cryptomkt": -0.95,
+          "model": null,
+          "reaction": null,
+          "price": null
+        },
+        "horizon": "4h"
+      },
+      "86400": {
+        "instrument": "BTCUSD",
+        "horizon_s": 86400,
+        "direction": "STAY AWAY",
+        "score": -19.6,
+        "confidence": "n/a",
+        "status": "STALE",
+        "supporting": [
+          "crypto market: total mcap 24h -5.5%, BTC.D 57.8% (-0.25pp/24h)"
+        ],
+        "contradicting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)"
+        ],
+        "risks": [
+          "price data stale (312 min old)"
+        ],
+        "data_ts": 1795835700,
+        "freshness": "STALE",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.3,
+        "group": "",
+        "kind": "crypto",
+        "thr": null,
+        "vol_pct": 0.9319407008086253,
+        "validated": true,
+        "components": {
+          "macro": null,
+          "rates": 0.527,
+          "risk": null,
+          "cryptomkt": -0.95,
+          "model": null,
+          "reaction": null,
+          "price": null
+        },
+        "horizon": "24h"
+      }
+    },
+    "ETHUSD": {
+      "900": {
+        "instrument": "ETHUSD",
+        "horizon_s": 900,
+        "direction": "STAY AWAY",
+        "score": -8.5,
+        "confidence": "n/a",
+        "status": "STALE",
+        "supporting": [
+          "crypto market: total mcap 24h -5.5%, BTC.D 57.8% (-0.25pp/24h); BTC dominance -0.25pp/24h"
+        ],
+        "contradicting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)"
+        ],
+        "risks": [
+          "price data stale (312 min old)"
+        ],
+        "data_ts": 1795835700,
+        "freshness": "STALE",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.15,
+        "group": "",
+        "kind": "crypto",
+        "thr": null,
+        "vol_pct": 0.8861185983827493,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "rates": 0.527,
+          "risk": null,
+          "cryptomkt": -0.858,
+          "model": null,
+          "reaction": null,
+          "price": null
+        },
+        "horizon": "15m"
+      },
+      "3600": {
+        "instrument": "ETHUSD",
+        "horizon_s": 3600,
+        "direction": "STAY AWAY",
+        "score": -14.6,
+        "confidence": "n/a",
+        "status": "STALE",
+        "supporting": [
+          "crypto market: total mcap 24h -5.5%, BTC.D 57.8% (-0.25pp/24h); BTC dominance -0.25pp/24h"
+        ],
+        "contradicting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)"
+        ],
+        "risks": [
+          "price data stale (312 min old)"
+        ],
+        "data_ts": 1795835700,
+        "freshness": "STALE",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.2,
+        "group": "",
+        "kind": "crypto",
+        "thr": null,
+        "vol_pct": 0.8861185983827493,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "rates": 0.527,
+          "risk": null,
+          "cryptomkt": -0.858,
+          "model": null,
+          "reaction": null,
+          "price": null
+        },
+        "horizon": "1h"
+      },
+      "14400": {
+        "instrument": "ETHUSD",
+        "horizon_s": 14400,
+        "direction": "STAY AWAY",
+        "score": -16.0,
+        "confidence": "n/a",
+        "status": "STALE",
+        "supporting": [
+          "crypto market: total mcap 24h -5.5%, BTC.D 57.8% (-0.25pp/24h); BTC dominance -0.25pp/24h"
+        ],
+        "contradicting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)"
+        ],
+        "risks": [
+          "price data stale (312 min old)"
+        ],
+        "data_ts": 1795835700,
+        "freshness": "STALE",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.26,
+        "group": "",
+        "kind": "crypto",
+        "thr": null,
+        "vol_pct": 0.8861185983827493,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "rates": 0.527,
+          "risk": null,
+          "cryptomkt": -0.858,
+          "model": null,
+          "reaction": null,
+          "price": null
+        },
+        "horizon": "4h"
+      },
+      "86400": {
+        "instrument": "ETHUSD",
+        "horizon_s": 86400,
+        "direction": "STAY AWAY",
+        "score": -17.0,
+        "confidence": "n/a",
+        "status": "STALE",
+        "supporting": [
+          "crypto market: total mcap 24h -5.5%, BTC.D 57.8% (-0.25pp/24h); BTC dominance -0.25pp/24h"
+        ],
+        "contradicting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)"
+        ],
+        "risks": [
+          "price data stale (312 min old)"
+        ],
+        "data_ts": 1795835700,
+        "freshness": "STALE",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.3,
+        "group": "",
+        "kind": "crypto",
+        "thr": null,
+        "vol_pct": 0.8861185983827493,
+        "validated": true,
+        "components": {
+          "macro": null,
+          "rates": 0.527,
+          "risk": null,
+          "cryptomkt": -0.858,
+          "model": null,
+          "reaction": null,
+          "price": null
+        },
+        "horizon": "24h"
+      }
+    },
+    "BNBUSD": {
+      "900": {
+        "instrument": "BNBUSD",
+        "horizon_s": 900,
+        "direction": "STAY AWAY",
+        "score": -8.5,
+        "confidence": "n/a",
+        "status": "STALE",
+        "supporting": [
+          "crypto market: total mcap 24h -5.5%, BTC.D 57.8% (-0.25pp/24h); BTC dominance -0.25pp/24h"
+        ],
+        "contradicting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)"
+        ],
+        "risks": [
+          "price data stale (312 min old)"
+        ],
+        "data_ts": 1795835700,
+        "freshness": "STALE",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.15,
+        "group": "",
+        "kind": "crypto",
+        "thr": null,
+        "vol_pct": 0.8861185983827493,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "rates": 0.527,
+          "risk": null,
+          "cryptomkt": -0.858,
+          "model": null,
+          "reaction": null,
+          "price": null
+        },
+        "horizon": "15m"
+      },
+      "3600": {
+        "instrument": "BNBUSD",
+        "horizon_s": 3600,
+        "direction": "STAY AWAY",
+        "score": -14.6,
+        "confidence": "n/a",
+        "status": "STALE",
+        "supporting": [
+          "crypto market: total mcap 24h -5.5%, BTC.D 57.8% (-0.25pp/24h); BTC dominance -0.25pp/24h"
+        ],
+        "contradicting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)"
+        ],
+        "risks": [
+          "price data stale (312 min old)"
+        ],
+        "data_ts": 1795835700,
+        "freshness": "STALE",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.2,
+        "group": "",
+        "kind": "crypto",
+        "thr": null,
+        "vol_pct": 0.8861185983827493,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "rates": 0.527,
+          "risk": null,
+          "cryptomkt": -0.858,
+          "model": null,
+          "reaction": null,
+          "price": null
+        },
+        "horizon": "1h"
+      },
+      "14400": {
+        "instrument": "BNBUSD",
+        "horizon_s": 14400,
+        "direction": "STAY AWAY",
+        "score": -16.0,
+        "confidence": "n/a",
+        "status": "STALE",
+        "supporting": [
+          "crypto market: total mcap 24h -5.5%, BTC.D 57.8% (-0.25pp/24h); BTC dominance -0.25pp/24h"
+        ],
+        "contradicting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)"
+        ],
+        "risks": [
+          "price data stale (312 min old)"
+        ],
+        "data_ts": 1795835700,
+        "freshness": "STALE",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.26,
+        "group": "",
+        "kind": "crypto",
+        "thr": null,
+        "vol_pct": 0.8861185983827493,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "rates": 0.527,
+          "risk": null,
+          "cryptomkt": -0.858,
+          "model": null,
+          "reaction": null,
+          "price": null
+        },
+        "horizon": "4h"
+      },
+      "86400": {
+        "instrument": "BNBUSD",
+        "horizon_s": 86400,
+        "direction": "STAY AWAY",
+        "score": -17.0,
+        "confidence": "n/a",
+        "status": "STALE",
+        "supporting": [
+          "crypto market: total mcap 24h -5.5%, BTC.D 57.8% (-0.25pp/24h); BTC dominance -0.25pp/24h"
+        ],
+        "contradicting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)"
+        ],
+        "risks": [
+          "price data stale (312 min old)"
+        ],
+        "data_ts": 1795835700,
+        "freshness": "STALE",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.3,
+        "group": "",
+        "kind": "crypto",
+        "thr": null,
+        "vol_pct": 0.8861185983827493,
+        "validated": true,
+        "components": {
+          "macro": null,
+          "rates": 0.527,
+          "risk": null,
+          "cryptomkt": -0.858,
+          "model": null,
+          "reaction": null,
+          "price": null
+        },
+        "horizon": "24h"
+      }
+    },
+    "SOLUSD": {
+      "900": {
+        "instrument": "SOLUSD",
+        "horizon_s": 900,
+        "direction": "STAY AWAY",
+        "score": -8.5,
+        "confidence": "n/a",
+        "status": "STALE",
+        "supporting": [
+          "crypto market: total mcap 24h -5.5%, BTC.D 57.8% (-0.25pp/24h); BTC dominance -0.25pp/24h"
+        ],
+        "contradicting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)"
+        ],
+        "risks": [
+          "price data stale (312 min old)"
+        ],
+        "data_ts": 1795835700,
+        "freshness": "STALE",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.15,
+        "group": "",
+        "kind": "crypto",
+        "thr": null,
+        "vol_pct": 0.839622641509434,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "rates": 0.527,
+          "risk": null,
+          "cryptomkt": -0.858,
+          "model": null,
+          "reaction": null,
+          "price": null
+        },
+        "horizon": "15m"
+      },
+      "3600": {
+        "instrument": "SOLUSD",
+        "horizon_s": 3600,
+        "direction": "STAY AWAY",
+        "score": -14.6,
+        "confidence": "n/a",
+        "status": "STALE",
+        "supporting": [
+          "crypto market: total mcap 24h -5.5%, BTC.D 57.8% (-0.25pp/24h); BTC dominance -0.25pp/24h"
+        ],
+        "contradicting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)"
+        ],
+        "risks": [
+          "price data stale (312 min old)"
+        ],
+        "data_ts": 1795835700,
+        "freshness": "STALE",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.2,
+        "group": "",
+        "kind": "crypto",
+        "thr": null,
+        "vol_pct": 0.839622641509434,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "rates": 0.527,
+          "risk": null,
+          "cryptomkt": -0.858,
+          "model": null,
+          "reaction": null,
+          "price": null
+        },
+        "horizon": "1h"
+      },
+      "14400": {
+        "instrument": "SOLUSD",
+        "horizon_s": 14400,
+        "direction": "STAY AWAY",
+        "score": -16.0,
+        "confidence": "n/a",
+        "status": "STALE",
+        "supporting": [
+          "crypto market: total mcap 24h -5.5%, BTC.D 57.8% (-0.25pp/24h); BTC dominance -0.25pp/24h"
+        ],
+        "contradicting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)"
+        ],
+        "risks": [
+          "price data stale (312 min old)"
+        ],
+        "data_ts": 1795835700,
+        "freshness": "STALE",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.26,
+        "group": "",
+        "kind": "crypto",
+        "thr": null,
+        "vol_pct": 0.839622641509434,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "rates": 0.527,
+          "risk": null,
+          "cryptomkt": -0.858,
+          "model": null,
+          "reaction": null,
+          "price": null
+        },
+        "horizon": "4h"
+      },
+      "86400": {
+        "instrument": "SOLUSD",
+        "horizon_s": 86400,
+        "direction": "STAY AWAY",
+        "score": -17.0,
+        "confidence": "n/a",
+        "status": "STALE",
+        "supporting": [
+          "crypto market: total mcap 24h -5.5%, BTC.D 57.8% (-0.25pp/24h); BTC dominance -0.25pp/24h"
+        ],
+        "contradicting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)"
+        ],
+        "risks": [
+          "price data stale (312 min old)"
+        ],
+        "data_ts": 1795835700,
+        "freshness": "STALE",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.3,
+        "group": "",
+        "kind": "crypto",
+        "thr": null,
+        "vol_pct": 0.839622641509434,
+        "validated": true,
+        "components": {
+          "macro": null,
+          "rates": 0.527,
+          "risk": null,
+          "cryptomkt": -0.858,
+          "model": null,
+          "reaction": null,
+          "price": null
+        },
+        "horizon": "24h"
+      }
+    },
+    "XRPUSD": {
+      "900": {
+        "instrument": "XRPUSD",
+        "horizon_s": 900,
+        "direction": "STAY AWAY",
+        "score": -8.5,
+        "confidence": "n/a",
+        "status": "STALE",
+        "supporting": [
+          "crypto market: total mcap 24h -5.5%, BTC.D 57.8% (-0.25pp/24h); BTC dominance -0.25pp/24h"
+        ],
+        "contradicting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)"
+        ],
+        "risks": [
+          "price data stale (312 min old)"
+        ],
+        "data_ts": 1795835700,
+        "freshness": "STALE",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.15,
+        "group": "",
+        "kind": "crypto",
+        "thr": null,
+        "vol_pct": 0.8261455525606469,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "rates": 0.527,
+          "risk": null,
+          "cryptomkt": -0.858,
+          "model": null,
+          "reaction": null,
+          "price": null
+        },
+        "horizon": "15m"
+      },
+      "3600": {
+        "instrument": "XRPUSD",
+        "horizon_s": 3600,
+        "direction": "STAY AWAY",
+        "score": -14.6,
+        "confidence": "n/a",
+        "status": "STALE",
+        "supporting": [
+          "crypto market: total mcap 24h -5.5%, BTC.D 57.8% (-0.25pp/24h); BTC dominance -0.25pp/24h"
+        ],
+        "contradicting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)"
+        ],
+        "risks": [
+          "price data stale (312 min old)"
+        ],
+        "data_ts": 1795835700,
+        "freshness": "STALE",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.2,
+        "group": "",
+        "kind": "crypto",
+        "thr": null,
+        "vol_pct": 0.8261455525606469,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "rates": 0.527,
+          "risk": null,
+          "cryptomkt": -0.858,
+          "model": null,
+          "reaction": null,
+          "price": null
+        },
+        "horizon": "1h"
+      },
+      "14400": {
+        "instrument": "XRPUSD",
+        "horizon_s": 14400,
+        "direction": "STAY AWAY",
+        "score": -16.0,
+        "confidence": "n/a",
+        "status": "STALE",
+        "supporting": [
+          "crypto market: total mcap 24h -5.5%, BTC.D 57.8% (-0.25pp/24h); BTC dominance -0.25pp/24h"
+        ],
+        "contradicting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)"
+        ],
+        "risks": [
+          "price data stale (312 min old)"
+        ],
+        "data_ts": 1795835700,
+        "freshness": "STALE",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.26,
+        "group": "",
+        "kind": "crypto",
+        "thr": null,
+        "vol_pct": 0.8261455525606469,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "rates": 0.527,
+          "risk": null,
+          "cryptomkt": -0.858,
+          "model": null,
+          "reaction": null,
+          "price": null
+        },
+        "horizon": "4h"
+      },
+      "86400": {
+        "instrument": "XRPUSD",
+        "horizon_s": 86400,
+        "direction": "STAY AWAY",
+        "score": -17.0,
+        "confidence": "n/a",
+        "status": "STALE",
+        "supporting": [
+          "crypto market: total mcap 24h -5.5%, BTC.D 57.8% (-0.25pp/24h); BTC dominance -0.25pp/24h"
+        ],
+        "contradicting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)"
+        ],
+        "risks": [
+          "price data stale (312 min old)"
+        ],
+        "data_ts": 1795835700,
+        "freshness": "STALE",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.3,
+        "group": "",
+        "kind": "crypto",
+        "thr": null,
+        "vol_pct": 0.8261455525606469,
+        "validated": true,
+        "components": {
+          "macro": null,
+          "rates": 0.527,
+          "risk": null,
+          "cryptomkt": -0.858,
+          "model": null,
+          "reaction": null,
+          "price": null
+        },
+        "horizon": "24h"
+      }
+    },
+    "EURUSD": {
+      "900": {
+        "instrument": "EURUSD",
+        "horizon_s": 900,
+        "direction": "NEUTRAL / WAIT",
+        "score": 6.9,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)",
+          "official central-bank headline tone (keyword, coarse)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.1,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.2172549019607843,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": 0.087,
+          "rates": 0.878,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "15m"
+      },
+      "3600": {
+        "instrument": "EURUSD",
+        "horizon_s": 3600,
+        "direction": "NEUTRAL / WAIT",
+        "score": 8.3,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)",
+          "official central-bank headline tone (keyword, coarse)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.12,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.2172549019607843,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": 0.087,
+          "rates": 0.878,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "1h"
+      },
+      "14400": {
+        "instrument": "EURUSD",
+        "horizon_s": 14400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 11.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)",
+          "official central-bank headline tone (keyword, coarse)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.16,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.2172549019607843,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": 0.087,
+          "rates": 0.878,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "4h"
+      },
+      "86400": {
+        "instrument": "EURUSD",
+        "horizon_s": 86400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 13.8,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)",
+          "official central-bank headline tone (keyword, coarse)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.2,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.2172549019607843,
+        "validated": true,
+        "components": {
+          "macro": null,
+          "tone": 0.087,
+          "rates": 0.878,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "24h"
+      }
+    },
+    "GBPUSD": {
+      "900": {
+        "instrument": "GBPUSD",
+        "horizon_s": 900,
+        "direction": "NEUTRAL / WAIT",
+        "score": 6.9,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)",
+          "official central-bank headline tone (keyword, coarse)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.1,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.15047021943573669,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": 0.087,
+          "rates": 0.878,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "15m"
+      },
+      "3600": {
+        "instrument": "GBPUSD",
+        "horizon_s": 3600,
+        "direction": "NEUTRAL / WAIT",
+        "score": 8.3,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)",
+          "official central-bank headline tone (keyword, coarse)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.12,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.15047021943573669,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": 0.087,
+          "rates": 0.878,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "1h"
+      },
+      "14400": {
+        "instrument": "GBPUSD",
+        "horizon_s": 14400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 11.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)",
+          "official central-bank headline tone (keyword, coarse)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.16,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.15047021943573669,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": 0.087,
+          "rates": 0.878,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "4h"
+      },
+      "86400": {
+        "instrument": "GBPUSD",
+        "horizon_s": 86400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 13.8,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)",
+          "official central-bank headline tone (keyword, coarse)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.2,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.15047021943573669,
+        "validated": true,
+        "components": {
+          "macro": null,
+          "tone": 0.087,
+          "rates": 0.878,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "24h"
+      }
+    },
+    "USDJPY": {
+      "900": {
+        "instrument": "USDJPY",
+        "horizon_s": 900,
+        "direction": "NEUTRAL / WAIT",
+        "score": -6.9,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)",
+          "official central-bank headline tone (keyword, coarse)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.1,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.015748031496062992,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": -0.087,
+          "rates": -0.878,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "15m"
+      },
+      "3600": {
+        "instrument": "USDJPY",
+        "horizon_s": 3600,
+        "direction": "NEUTRAL / WAIT",
+        "score": -8.3,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)",
+          "official central-bank headline tone (keyword, coarse)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.12,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.015748031496062992,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": -0.087,
+          "rates": -0.878,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "1h"
+      },
+      "14400": {
+        "instrument": "USDJPY",
+        "horizon_s": 14400,
+        "direction": "NEUTRAL / WAIT",
+        "score": -11.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)",
+          "official central-bank headline tone (keyword, coarse)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.16,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.015748031496062992,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": -0.087,
+          "rates": -0.878,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "4h"
+      },
+      "86400": {
+        "instrument": "USDJPY",
+        "horizon_s": 86400,
+        "direction": "NEUTRAL / WAIT",
+        "score": -13.8,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)",
+          "official central-bank headline tone (keyword, coarse)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.2,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.015748031496062992,
+        "validated": true,
+        "components": {
+          "macro": null,
+          "tone": -0.087,
+          "rates": -0.878,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "24h"
+      }
+    },
+    "USDCHF": {
+      "900": {
+        "instrument": "USDCHF",
+        "horizon_s": 900,
+        "direction": "NEUTRAL / WAIT",
+        "score": -6.9,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)",
+          "official central-bank headline tone (keyword, coarse)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.1,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.4822974036191975,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": -0.087,
+          "rates": -0.878,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "15m"
+      },
+      "3600": {
+        "instrument": "USDCHF",
+        "horizon_s": 3600,
+        "direction": "NEUTRAL / WAIT",
+        "score": -8.3,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)",
+          "official central-bank headline tone (keyword, coarse)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.12,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.4822974036191975,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": -0.087,
+          "rates": -0.878,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "1h"
+      },
+      "14400": {
+        "instrument": "USDCHF",
+        "horizon_s": 14400,
+        "direction": "NEUTRAL / WAIT",
+        "score": -11.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)",
+          "official central-bank headline tone (keyword, coarse)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.16,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.4822974036191975,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": -0.087,
+          "rates": -0.878,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "4h"
+      },
+      "86400": {
+        "instrument": "USDCHF",
+        "horizon_s": 86400,
+        "direction": "NEUTRAL / WAIT",
+        "score": -13.8,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)",
+          "official central-bank headline tone (keyword, coarse)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.2,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.4822974036191975,
+        "validated": true,
+        "components": {
+          "macro": null,
+          "tone": -0.087,
+          "rates": -0.878,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "24h"
+      }
+    },
+    "USDCAD": {
+      "900": {
+        "instrument": "USDCAD",
+        "horizon_s": 900,
+        "direction": "NEUTRAL / WAIT",
+        "score": -6.9,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)",
+          "official central-bank headline tone (keyword, coarse)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795824000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.1,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.39032006245121,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": -0.087,
+          "rates": -0.878,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "15m"
+      },
+      "3600": {
+        "instrument": "USDCAD",
+        "horizon_s": 3600,
+        "direction": "NEUTRAL / WAIT",
+        "score": -8.3,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)",
+          "official central-bank headline tone (keyword, coarse)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795824000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.12,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.39032006245121,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": -0.087,
+          "rates": -0.878,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "1h"
+      },
+      "14400": {
+        "instrument": "USDCAD",
+        "horizon_s": 14400,
+        "direction": "NEUTRAL / WAIT",
+        "score": -11.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)",
+          "official central-bank headline tone (keyword, coarse)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795824000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.16,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.39032006245121,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": -0.087,
+          "rates": -0.878,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "4h"
+      },
+      "86400": {
+        "instrument": "USDCAD",
+        "horizon_s": 86400,
+        "direction": "NEUTRAL / WAIT",
+        "score": -13.8,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)",
+          "official central-bank headline tone (keyword, coarse)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795824000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.2,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.39032006245121,
+        "validated": true,
+        "components": {
+          "macro": null,
+          "tone": -0.087,
+          "rates": -0.878,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "24h"
+      }
+    },
+    "AUDUSD": {
+      "900": {
+        "instrument": "AUDUSD",
+        "horizon_s": 900,
+        "direction": "NEUTRAL / WAIT",
+        "score": 6.9,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)",
+          "official central-bank headline tone (keyword, coarse)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795824000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.1,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.7338017174082748,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": 0.087,
+          "rates": 0.878,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "15m"
+      },
+      "3600": {
+        "instrument": "AUDUSD",
+        "horizon_s": 3600,
+        "direction": "NEUTRAL / WAIT",
+        "score": 8.3,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)",
+          "official central-bank headline tone (keyword, coarse)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795824000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.12,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.7338017174082748,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": 0.087,
+          "rates": 0.878,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "1h"
+      },
+      "14400": {
+        "instrument": "AUDUSD",
+        "horizon_s": 14400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 11.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)",
+          "official central-bank headline tone (keyword, coarse)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795824000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.16,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.7338017174082748,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": 0.087,
+          "rates": 0.878,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "4h"
+      },
+      "86400": {
+        "instrument": "AUDUSD",
+        "horizon_s": 86400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 13.8,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)",
+          "official central-bank headline tone (keyword, coarse)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795824000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.2,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.7338017174082748,
+        "validated": true,
+        "components": {
+          "macro": null,
+          "tone": 0.087,
+          "rates": 0.878,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "24h"
+      }
+    },
+    "NZDUSD": {
+      "900": {
+        "instrument": "NZDUSD",
+        "horizon_s": 900,
+        "direction": "NEUTRAL / WAIT",
+        "score": 6.9,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)",
+          "official central-bank headline tone (keyword, coarse)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795824000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.1,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.9391100702576113,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": 0.087,
+          "rates": 0.878,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "15m"
+      },
+      "3600": {
+        "instrument": "NZDUSD",
+        "horizon_s": 3600,
+        "direction": "NEUTRAL / WAIT",
+        "score": 8.3,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)",
+          "official central-bank headline tone (keyword, coarse)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795824000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.12,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.9391100702576113,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": 0.087,
+          "rates": 0.878,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "1h"
+      },
+      "14400": {
+        "instrument": "NZDUSD",
+        "horizon_s": 14400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 11.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)",
+          "official central-bank headline tone (keyword, coarse)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795824000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.16,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.9391100702576113,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": 0.087,
+          "rates": 0.878,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "4h"
+      },
+      "86400": {
+        "instrument": "NZDUSD",
+        "horizon_s": 86400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 13.8,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [
+          "US10Y/US02Y -0.21pp over last 5 daily obs (daily, delayed data)",
+          "official central-bank headline tone (keyword, coarse)"
+        ],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795824000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.2,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.9391100702576113,
+        "validated": true,
+        "components": {
+          "macro": null,
+          "tone": 0.087,
+          "rates": 0.878,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "24h"
+      }
+    },
+    "EURJPY": {
+      "900": {
+        "instrument": "EURJPY",
+        "horizon_s": 900,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.07053291536050156,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "15m"
+      },
+      "3600": {
+        "instrument": "EURJPY",
+        "horizon_s": 3600,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.07053291536050156,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "1h"
+      },
+      "14400": {
+        "instrument": "EURJPY",
+        "horizon_s": 14400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.07053291536050156,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "4h"
+      },
+      "86400": {
+        "instrument": "EURJPY",
+        "horizon_s": 86400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.07053291536050156,
+        "validated": true,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "24h"
+      }
+    },
+    "GBPJPY": {
+      "900": {
+        "instrument": "GBPJPY",
+        "horizon_s": 900,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.14498432601880878,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "15m"
+      },
+      "3600": {
+        "instrument": "GBPJPY",
+        "horizon_s": 3600,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.14498432601880878,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "1h"
+      },
+      "14400": {
+        "instrument": "GBPJPY",
+        "horizon_s": 14400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.14498432601880878,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "4h"
+      },
+      "86400": {
+        "instrument": "GBPJPY",
+        "horizon_s": 86400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.14498432601880878,
+        "validated": true,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "24h"
+      }
+    },
+    "EURGBP": {
+      "900": {
+        "instrument": "EURGBP",
+        "horizon_s": 900,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.5713166144200627,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "15m"
+      },
+      "3600": {
+        "instrument": "EURGBP",
+        "horizon_s": 3600,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.5713166144200627,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "1h"
+      },
+      "14400": {
+        "instrument": "EURGBP",
+        "horizon_s": 14400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.5713166144200627,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "4h"
+      },
+      "86400": {
+        "instrument": "EURGBP",
+        "horizon_s": 86400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.5713166144200627,
+        "validated": true,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "24h"
+      }
+    },
+    "EURCHF": {
+      "900": {
+        "instrument": "EURCHF",
+        "horizon_s": 900,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.5501567398119123,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "15m"
+      },
+      "3600": {
+        "instrument": "EURCHF",
+        "horizon_s": 3600,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.5501567398119123,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "1h"
+      },
+      "14400": {
+        "instrument": "EURCHF",
+        "horizon_s": 14400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.5501567398119123,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "4h"
+      },
+      "86400": {
+        "instrument": "EURCHF",
+        "horizon_s": 86400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.5501567398119123,
+        "validated": true,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "24h"
+      }
+    },
+    "EURCAD": {
+      "900": {
+        "instrument": "EURCAD",
+        "horizon_s": 900,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.1704456606724003,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "15m"
+      },
+      "3600": {
+        "instrument": "EURCAD",
+        "horizon_s": 3600,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.1704456606724003,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "1h"
+      },
+      "14400": {
+        "instrument": "EURCAD",
+        "horizon_s": 14400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.1704456606724003,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "4h"
+      },
+      "86400": {
+        "instrument": "EURCAD",
+        "horizon_s": 86400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.1704456606724003,
+        "validated": true,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "24h"
+      }
+    },
+    "GBPCAD": {
+      "900": {
+        "instrument": "GBPCAD",
+        "horizon_s": 900,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795824000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.1366120218579235,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "15m"
+      },
+      "3600": {
+        "instrument": "GBPCAD",
+        "horizon_s": 3600,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795824000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.1366120218579235,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "1h"
+      },
+      "14400": {
+        "instrument": "GBPCAD",
+        "horizon_s": 14400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795824000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.1366120218579235,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "4h"
+      },
+      "86400": {
+        "instrument": "GBPCAD",
+        "horizon_s": 86400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795824000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.1366120218579235,
+        "validated": true,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "24h"
+      }
+    },
+    "GBPCHF": {
+      "900": {
+        "instrument": "GBPCHF",
+        "horizon_s": 900,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.7349491790461298,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "15m"
+      },
+      "3600": {
+        "instrument": "GBPCHF",
+        "horizon_s": 3600,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.7349491790461298,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "1h"
+      },
+      "14400": {
+        "instrument": "GBPCHF",
+        "horizon_s": 14400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.7349491790461298,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "4h"
+      },
+      "86400": {
+        "instrument": "GBPCHF",
+        "horizon_s": 86400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.7349491790461298,
+        "validated": true,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "24h"
+      }
+    },
+    "GBPAUD": {
+      "900": {
+        "instrument": "GBPAUD",
+        "horizon_s": 900,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795824000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.6115444617784711,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "15m"
+      },
+      "3600": {
+        "instrument": "GBPAUD",
+        "horizon_s": 3600,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795824000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.6115444617784711,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "1h"
+      },
+      "14400": {
+        "instrument": "GBPAUD",
+        "horizon_s": 14400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795824000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.6115444617784711,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "4h"
+      },
+      "86400": {
+        "instrument": "GBPAUD",
+        "horizon_s": 86400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795824000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.6115444617784711,
+        "validated": true,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "24h"
+      }
+    },
+    "GBPNZD": {
+      "900": {
+        "instrument": "GBPNZD",
+        "horizon_s": 900,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795824000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.9414519906323185,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "15m"
+      },
+      "3600": {
+        "instrument": "GBPNZD",
+        "horizon_s": 3600,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795824000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.9414519906323185,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "1h"
+      },
+      "14400": {
+        "instrument": "GBPNZD",
+        "horizon_s": 14400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795824000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.9414519906323185,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "4h"
+      },
+      "86400": {
+        "instrument": "GBPNZD",
+        "horizon_s": 86400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795824000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.9414519906323185,
+        "validated": true,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "24h"
+      }
+    },
+    "AUDJPY": {
+      "900": {
+        "instrument": "AUDJPY",
+        "horizon_s": 900,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.6504702194357367,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "15m"
+      },
+      "3600": {
+        "instrument": "AUDJPY",
+        "horizon_s": 3600,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.6504702194357367,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "1h"
+      },
+      "14400": {
+        "instrument": "AUDJPY",
+        "horizon_s": 14400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.6504702194357367,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "4h"
+      },
+      "86400": {
+        "instrument": "AUDJPY",
+        "horizon_s": 86400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.6504702194357367,
+        "validated": true,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "24h"
+      }
+    },
+    "AUDCAD": {
+      "900": {
+        "instrument": "AUDCAD",
+        "horizon_s": 900,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795824000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.795472287275566,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "15m"
+      },
+      "3600": {
+        "instrument": "AUDCAD",
+        "horizon_s": 3600,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795824000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.795472287275566,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "1h"
+      },
+      "14400": {
+        "instrument": "AUDCAD",
+        "horizon_s": 14400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795824000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.795472287275566,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "4h"
+      },
+      "86400": {
+        "instrument": "AUDCAD",
+        "horizon_s": 86400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795824000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.795472287275566,
+        "validated": true,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "24h"
+      }
+    },
+    "AUDNZD": {
+      "900": {
+        "instrument": "AUDNZD",
+        "horizon_s": 900,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795824000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.7775175644028103,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "15m"
+      },
+      "3600": {
+        "instrument": "AUDNZD",
+        "horizon_s": 3600,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795824000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.7775175644028103,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "1h"
+      },
+      "14400": {
+        "instrument": "AUDNZD",
+        "horizon_s": 14400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795824000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.7775175644028103,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "4h"
+      },
+      "86400": {
+        "instrument": "AUDNZD",
+        "horizon_s": 86400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795824000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.7775175644028103,
+        "validated": true,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "24h"
+      }
+    },
+    "AUDCHF": {
+      "900": {
+        "instrument": "AUDCHF",
+        "horizon_s": 900,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.7802971071149335,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "15m"
+      },
+      "3600": {
+        "instrument": "AUDCHF",
+        "horizon_s": 3600,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.7802971071149335,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "1h"
+      },
+      "14400": {
+        "instrument": "AUDCHF",
+        "horizon_s": 14400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.7802971071149335,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "4h"
+      },
+      "86400": {
+        "instrument": "AUDCHF",
+        "horizon_s": 86400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.7802971071149335,
+        "validated": true,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "24h"
+      }
+    },
+    "NZDJPY": {
+      "900": {
+        "instrument": "NZDJPY",
+        "horizon_s": 900,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.8652037617554859,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "15m"
+      },
+      "3600": {
+        "instrument": "NZDJPY",
+        "horizon_s": 3600,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.8652037617554859,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "1h"
+      },
+      "14400": {
+        "instrument": "NZDJPY",
+        "horizon_s": 14400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.8652037617554859,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "4h"
+      },
+      "86400": {
+        "instrument": "NZDJPY",
+        "horizon_s": 86400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.8652037617554859,
+        "validated": true,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "24h"
+      }
+    },
+    "NZDCAD": {
+      "900": {
+        "instrument": "NZDCAD",
+        "horizon_s": 900,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795824000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.9453551912568307,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "15m"
+      },
+      "3600": {
+        "instrument": "NZDCAD",
+        "horizon_s": 3600,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795824000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.9453551912568307,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "1h"
+      },
+      "14400": {
+        "instrument": "NZDCAD",
+        "horizon_s": 14400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795824000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.9453551912568307,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "4h"
+      },
+      "86400": {
+        "instrument": "NZDCAD",
+        "horizon_s": 86400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795824000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.9453551912568307,
+        "validated": true,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "24h"
+      }
+    },
+    "NZDCHF": {
+      "900": {
+        "instrument": "NZDCHF",
+        "horizon_s": 900,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.89296875,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "15m"
+      },
+      "3600": {
+        "instrument": "NZDCHF",
+        "horizon_s": 3600,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.89296875,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "1h"
+      },
+      "14400": {
+        "instrument": "NZDCHF",
+        "horizon_s": 14400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.89296875,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "4h"
+      },
+      "86400": {
+        "instrument": "NZDCHF",
+        "horizon_s": 86400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.89296875,
+        "validated": true,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "24h"
+      }
+    },
+    "CADJPY": {
+      "900": {
+        "instrument": "CADJPY",
+        "horizon_s": 900,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.0822884012539185,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "15m"
+      },
+      "3600": {
+        "instrument": "CADJPY",
+        "horizon_s": 3600,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.0822884012539185,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "1h"
+      },
+      "14400": {
+        "instrument": "CADJPY",
+        "horizon_s": 14400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.0822884012539185,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "4h"
+      },
+      "86400": {
+        "instrument": "CADJPY",
+        "horizon_s": 86400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.0822884012539185,
+        "validated": true,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "24h"
+      }
+    },
+    "CADCHF": {
+      "900": {
+        "instrument": "CADCHF",
+        "horizon_s": 900,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795824000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.40625,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "15m"
+      },
+      "3600": {
+        "instrument": "CADCHF",
+        "horizon_s": 3600,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795824000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.40625,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "1h"
+      },
+      "14400": {
+        "instrument": "CADCHF",
+        "horizon_s": 14400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795824000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.40625,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "4h"
+      },
+      "86400": {
+        "instrument": "CADCHF",
+        "horizon_s": 86400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795824000,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.40625,
+        "validated": true,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "24h"
+      }
+    },
+    "CHFJPY": {
+      "900": {
+        "instrument": "CHFJPY",
+        "horizon_s": 900,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.1843137254901961,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "15m"
+      },
+      "3600": {
+        "instrument": "CHFJPY",
+        "horizon_s": 3600,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.1843137254901961,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "1h"
+      },
+      "14400": {
+        "instrument": "CHFJPY",
+        "horizon_s": 14400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.1843137254901961,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "4h"
+      },
+      "86400": {
+        "instrument": "CHFJPY",
+        "horizon_s": 86400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.1843137254901961,
+        "validated": true,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "24h"
+      }
+    },
+    "EURAUD": {
+      "900": {
+        "instrument": "EURAUD",
+        "horizon_s": 900,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.7263487099296325,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "15m"
+      },
+      "3600": {
+        "instrument": "EURAUD",
+        "horizon_s": 3600,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.7263487099296325,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "1h"
+      },
+      "14400": {
+        "instrument": "EURAUD",
+        "horizon_s": 14400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.7263487099296325,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "4h"
+      },
+      "86400": {
+        "instrument": "EURAUD",
+        "horizon_s": 86400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.7263487099296325,
+        "validated": true,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "24h"
+      }
+    },
+    "EURNZD": {
+      "900": {
+        "instrument": "EURNZD",
+        "horizon_s": 900,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.9640625,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "15m"
+      },
+      "3600": {
+        "instrument": "EURNZD",
+        "horizon_s": 3600,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.9640625,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "1h"
+      },
+      "14400": {
+        "instrument": "EURNZD",
+        "horizon_s": 14400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.9640625,
+        "validated": false,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "4h"
+      },
+      "86400": {
+        "instrument": "EURNZD",
+        "horizon_s": 86400,
+        "direction": "NEUTRAL / WAIT",
+        "score": 0.0,
+        "confidence": "n/a",
+        "status": "MARKET CLOSED",
+        "supporting": [],
+        "contradicting": [],
+        "risks": [
+          "market closed (weekly closure); outlook resumes at the open"
+        ],
+        "data_ts": 1795820400,
+        "freshness": "CLOSED",
+        "event": null,
+        "stage": "SCAN",
+        "created_ts": 1795854441,
+        "coverage": 0.0,
+        "group": "",
+        "kind": "forex",
+        "thr": null,
+        "vol_pct": 0.9640625,
+        "validated": true,
+        "components": {
+          "macro": null,
+          "tone": null,
+          "risk": null,
+          "model": null,
+          "reaction": null,
+          "price": null,
+          "strength": null
+        },
+        "horizon": "24h"
+      }
+    }
+  }
+}
